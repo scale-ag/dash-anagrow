@@ -1,8 +1,11 @@
 # CLAUDE.md — Dashboard de Controle de Tráfego Pago (TEMPLATE)
 
 > Este arquivo é lido automaticamente pelo Claude Code ao abrir o repositório.
-> **TEMPLATE** — configurado para o cliente **<<PREENCHER: nome do cliente>>**
-> (funil "<<PREENCHER: nome do funil/lançamento>>", sigla `<<PREENCHER: sigla do funil usada nas campanhas>>`).
+> Configurado para o cliente **Dr. João Gabriel** (funil "Anagrow", e-commerce).
+> **Sem sigla de funil:** os nomes de campanha não seguem `SIGLA | ...`; por decisão
+> do gestor, **todas as campanhas da conta** pertencem ao funil (sem filtro).
+> **Modo só gerenciador** (`GID_SALES = ""`): não há planilha de Compradores nem
+> cruzamento — Vendas/Faturamento vêm das colunas do próprio Meta Ads.
 > A engine (`build/template.html`, `build/build.py`, `build/app.js`, CSS,
 > `ia-worker/worker.js`, workflows) é genérica e não deve ser editada por
 > cliente; os valores do cliente ficam em **`build/config.py`** (config do funil)
@@ -74,8 +77,8 @@ via CDN) publicado no **GitHub Pages**, que cruza o gerenciador **Meta Ads** com
 de **Compradores** e se atualiza a cada ~30 min (build na nuvem via GitHub Actions,
 disparado pelo cron-job.org). **Somente leitura** das planilhas.
 
-- **URL pública:** `<<PREENCHER: URL do GitHub Pages, ex.: https://<owner>.github.io/<repo>/>>`
-- **Cliente/projeto:** <<PREENCHER: nome do cliente — nome do funil/lançamento>>
+- **URL pública:** `https://scale-ag.github.io/dash-anagrow/`
+- **Cliente/projeto:** Dr. João Gabriel — Anagrow (subtítulo "E-commerce")
   (rótulos exibidos vêm de `CLIENT_NAME`/`CLIENT_SUB` em `build/config.py`)
 - **Tipo de funil:** lançamento pago / tráfego direto (não há etapa de Leads/MQL) —
   `Gasto → Impressões → Cliques → Page Views → Checkouts → Vendas → Faturamento`
@@ -88,30 +91,38 @@ preencha também `SPREADSHEET_ID_SALES` em `build/config.py`.
 
 | Fonte | Planilha (`SPREADSHEET_ID*`) | gid | Aba |
 |-------|------------------------------|-----|-----|
-| **Meta Ads** | `<<PREENCHER: SPREADSHEET_ID>>` | `<<PREENCHER: GID_META>>` | <<PREENCHER: nome da aba Meta Ads>> |
-| **Compradores** | `<<PREENCHER: SPREADSHEET_ID_SALES ou o mesmo SPREADSHEET_ID>>` | `<<PREENCHER: GID_SALES>>` | <<PREENCHER: nome da aba de Compradores/Vendas>> |
+| **Meta Ads** | `1ZIQDDQRGDOpbgeuIzEeb5K7FmZEtY9EsqewIYfw9ZqQ` ("Dados gerenciador - Anagrow") | `0` | Página1 |
+| **Compradores** | — (não existe neste cliente) | `""` | — |
 
 **Colunas reais — Meta Ads** (o `header_index` do `build.py` casa por nome, a
 ordem não importa):
-<<PREENCHER: lista das colunas da aba Meta Ads, ex.: Day · Campaign Name · Ad Set Name · Ad Name · Amount Spent · Impressions · Link Clicks · Landing Page Views · Checkouts Initiated>>
+Day · Campaign Name · Ad Set Name · Ad Name · Amount Spent · Impressions · Link Clicks ·
+Landing Page Views · Checkouts Initiated · **Purchases** (= Vendas) ·
+**Purchases Conversion Value** (= Faturamento)
 
 **Colunas reais — Compradores** (as usadas pelo build: data, nome, e-mail,
 produto, valor/faturamento, utm_campaign, utm_medium, coluna de `AD_UTM_COLUMN`,
 status se houver):
-<<PREENCHER: lista das colunas da aba de Compradores e qual delas é a receita>>
+Não se aplica — este cliente não tem aba de Compradores. A receita é a coluna
+`Purchases Conversion Value` da aba Meta Ads.
 
 ### Pontos de atenção deste cliente
 
-<<PREENCHER: particularidades verificadas na planilha (data da verificação) —
-ex.: qual coluna UTM carrega o Ad Name e quantos valores batem com o Meta,
-janelas de data sem sobreposição, ausência de coluna de status, coluna de
-receita (bruta/líquida), ausência da coluna de permalink do criativo, abas que
-NÃO devem ser usadas. Apague este bloco se não houver nada a registrar.>>
+Verificado em 17/11/2026:
+- Uma única aba (`Página1`, gid 0), 4.673 linhas de 22/09/2026 a 17/11/2026, valores
+  em formato pt-BR (`17,65`). Linhas com gasto 0 e só compras/checkouts são
+  atribuições tardias do Meta — mantidas.
+- Vendas e receita são a **atribuição do pixel do Meta** (não há checagem contra
+  plataforma de pagamento). O build gera 1 registro de venda por compra da linha,
+  com a receita da linha dividida igualmente; receita sem compra entra só no
+  Faturamento.
+- Sem coluna de permalink do criativo (Top/Piores anúncios ficam sem link).
+- 24 nomes de campanha distintos, sem sigla comum (ex.: `CPA Cap | Scale`,
+  `Vendas | WhatsApp`, `vendas | BidCap | IG Anagrow`) — todas contam.
 
 ### Critério de MQL
 
-Funil de lançamento pago sem etapa de Leads/MQL. <<PREENCHER: confirmar com o
-gestor se há critério de MQL; se não houver, manter "não há etapa de MQL nesta dashboard".>>
+Funil de e-commerce sem etapa de Leads/MQL — não há etapa de MQL nesta dashboard.
 
 URL de export CSV: `https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/export?format=csv&gid={GID}`
 
@@ -124,7 +135,7 @@ ConvCHK (Vendas/Checkouts) · Faturamento · ROAS (Faturamento/Gasto) · Ticket 
 
 ### Produto principal / atribuição
 - **Produto principal** = `MAIN_PRODUCT_PREFIX` (definido em `build/config.py`) —
-  neste cliente: <<PREENCHER: nome do produto principal como aparece na planilha>>.
+  neste cliente: **Anagrow** (rótulo; no modo só gerenciador toda compra do Meta é venda).
   Base de **Vendas / CAC / ConvCHK / Ticket**.
 - **Faturamento / ROAS** = soma de **todos os produtos** do funil (orderbumps/upsells).
 - Uma venda entra no funil se: é o produto principal **OU** a combinação
@@ -137,7 +148,10 @@ ConvCHK (Vendas/Checkouts) · Faturamento · ROAS (Faturamento/Gasto) · Ticket 
   recebe `meta=1` (é o que a aba Meta Ads considera tráfego pago). Vendas de outros
   funis (UTM/produto não relacionados) ficam de fora. Só conta status pago (ou todas
   as linhas, se `COUNT_ALL_AS_PAID = True`).
-- <<PREENCHER: regra de atribuição específica deste cliente, se diferente da padrão acima; senão apague esta linha.>>
+- **Regra deste cliente (modo só gerenciador):** a regra de UTM acima **não se aplica**.
+  Vendas = `Purchases` e Faturamento = `Purchases Conversion Value` de cada linha do
+  Meta (campanha/conjunto/anúncio/dia), todas com `meta=1`. A tabela "Compradores" e
+  os cards "Vendas por produto" ficam ocultos (`build.meta_only`).
 - Se não houver coluna de Receita, não há Receita/ROAS/Ticket — ajuste o texto desta
   seção se o cliente tiver uma regra diferente.
 
@@ -145,12 +159,13 @@ ConvCHK (Vendas/Checkouts) · Faturamento · ROAS (Faturamento/Gasto) · Ticket 
 Toggle ON aplica o `TAX_FACTOR` (definido em `build/config.py`) sobre os custos do Meta.
 
 ### Convenções de campanha
-- Nomenclatura de campanha: `<<PREENCHER: padrão do nome de campanha, ex.: SIGLA | ETAPA | TEMPERATURA | ...>>`
-- Nomenclatura de conjunto: `<<PREENCHER: padrão do nome de conjunto>>`
-- Nomenclatura de anúncio: `<<PREENCHER: padrão do nome de anúncio>>`
-- Mapeamento UTM → Meta neste cliente (verificado nos dados):
-  `utm_campaign → Campaign Name` · `utm_medium → Ad Set Name` ·
-  `<<PREENCHER: coluna de AD_UTM_COLUMN>> → Ad Name`.
+- Nomenclatura de campanha: livre, blocos separados por ` | ` sem sigla fixa
+  (ex.: `CPA Cap | Scale`, `Test criativo | vendas | site offer | CBO`,
+  `Vendas | novembro | Black fiday | CPA cap`).
+- Nomenclatura de conjunto: livre (ex.: `TTS offer`, `Oferta TTS`, `C1`…`C5`).
+- Nomenclatura de anúncio: `CÓDIGO | tema` (ex.: `TVJ1191 | OSA`, `Ferritin12 | 5 ativos`,
+  `Post 1 | reels Ferrosa V1 | Ferrosa`).
+- Mapeamento UTM → Meta: não se aplica (sem planilha de vendas; `AD_UTM_COLUMN` não é usado).
 
 O match com o Meta (campo `meta`, usado pela aba Meta Ads) exige `utm_campaign` +
 a coluna de `AD_UTM_COLUMN` batendo com uma linha real do Meta; quando casa, a venda
@@ -179,7 +194,7 @@ pelo `build.py` no `render()` — assim dá para mexer só em cor/layout sem toc
 
 ```
 build/build.py             # ENGINE: lê os 2 CSVs (read-only), emite meta[]/sales[] e COSTURA os arquivos abaixo
-build/config.py            # CONFIG DO CLIENTE (troque os marcadores <<PREENCHER>>)
+build/config.py            # CONFIG DO CLIENTE (valores do Anagrow)
 build/config.example.py    # modelo comentado de build/config.py
 build/template.html        # esqueleto HTML (placeholders __STYLES__ / __APP_JS__ / __DATA_JSON__)
 build/identidade-visual.css # ⭐ TODAS as cores (temas claro/escuro, paleta de gráficos, heatmap). Edite AQUI p/ mexer só em cor.
@@ -189,14 +204,14 @@ build/app.js               # lógica + renderização (gráficos/heatmap leem as
 .github/workflows/deploy-worker.yml  # publica o Worker da IA Insights (Cloudflare)
 .github/workflows/gerar-relatorios-metrics.yml # 23:50 BRT: busca as planilhas e commita relatorios_metrics.json
 ia-worker/worker.js    # backend da aba IA Insights (ENGINE — não editar por cliente)
-ia-worker/wrangler.toml # nome do Worker (marcador <<PREENCHER>> no campo name)
+ia-worker/wrangler.toml # nome do Worker (dash-anagrow-ia-insights)
 build/relatorios.json  # briefings do Gestor por período (aba Relatórios) — VERSIONADO (criado pela Routine; não vem no template)
 build/relatorios_metrics.json # números por período (gerado pelo Actions, lido pela Routine) — VERSIONADO (criado pelo Actions; não vem no template)
 build/gerar_relatorios.py # calcula as métricas por período (rodado pelo Actions, não pela Routine)
 build/GUIA-RELATORIOS.md  # passo a passo da Routine que regenera os briefings
 dist/index.html        # saída gerada (gitignored; o Actions reconstrói)
 GUIA-REPLICACAO.md     # engine explicada + solução dos problemas de publicação
-config.js               # metadados de publicação (GitHub) — marcadores <<PREENCHER>>
+config.js               # metadados de publicação (GitHub) — scale-ag/dash-anagrow
 config.example.js       # cópia vazia de config.js, para referência
 AGENTS.md               # checklist + resumo para outros agentes (Codex etc.)
 SETUP-CRON.md          # valores do cron-job.org (owner/repo com marcadores)

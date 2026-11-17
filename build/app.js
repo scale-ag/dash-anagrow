@@ -827,6 +827,16 @@ document.getElementById('mainProdNote').textContent=MAIN_PRODUCT;
 document.getElementById('mainProdNoteG').textContent=MAIN_PRODUCT;
 document.getElementById('mainProdNoteProdG').textContent=MAIN_PRODUCT;
 document.getElementById('mainProdNoteProdM').textContent=MAIN_PRODUCT;
+/* Modo só gerenciador (sem planilha de Compradores): esconde o que depende da
+   lista de compradores e troca as notas que falam de UTM/produto. */
+if(B.meta_only){
+  document.querySelectorAll('[data-sales-only]').forEach(el=>{el.style.display='none';});
+  document.querySelectorAll('[data-meta-only-text]').forEach(el=>{el.innerHTML=el.getAttribute('data-meta-only-text');});
+  /* grades com nº ímpar de cards visíveis: o último ocupa a linha inteira */
+  document.querySelectorAll('.funnel-charts').forEach(g=>{
+    const vis=[...g.children].filter(c=>c.style.display!=='none');
+    if(vis.length%2) vis[vis.length-1].style.gridColumn='1 / -1'; });
+}
 document.getElementById('updated').innerHTML='Última atualização:<br>'+B.generated_at_brt+' (BRT)';
 document.getElementById('buildFoot').textContent='build __BUILD_ID__';
 document.getElementById('buildFoot2').textContent='· build __BUILD_ID__';

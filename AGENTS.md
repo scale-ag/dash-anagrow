@@ -66,9 +66,11 @@ grep -rn "<<PREENCHER" --exclude-dir=.git . | grep -v -E "^\./(CLAUDE|AGENTS)\.m
 
 ## Projeto
 
-- **Cliente/funil:** <<PREENCHER: nome do cliente — nome do funil/lançamento>>
-- **URL pública:** `<<PREENCHER: URL do GitHub Pages, ex.: https://<owner>.github.io/<repo>/>>`
-- **Tipo de funil:** lançamento pago / tráfego direto —
+- **Cliente/funil:** Dr. João Gabriel — Anagrow (E-commerce)
+- **URL pública:** `https://scale-ag.github.io/dash-anagrow/`
+- **Fonte única:** só o gerenciador Meta Ads (modo `GID_SALES=""`): Vendas = `Purchases`,
+  Faturamento = `Purchases Conversion Value`; não há planilha de Compradores.
+- **Tipo de funil:** e-commerce / tráfego direto —
   `Gasto → Impressões → Cliques → Page Views → Checkouts → Vendas → Faturamento`
 
 ## Regras para agentes
@@ -78,7 +80,7 @@ grep -rn "<<PREENCHER" --exclude-dir=.git . | grep -v -E "^\./(CLAUDE|AGENTS)\.m
   `build/identidade-visual.css`, `build/gerar_relatorios.py`,
   `ia-worker/worker.js`, `.github/workflows/*`, `GUIA-REPLICACAO.md`,
   `build/GUIA-RELATORIOS.md`). Valores do cliente vão em `build/config.py`,
-  `config.js`, `ia-worker/wrangler.toml` e nos marcadores `<<PREENCHER>>` dos docs.
+  `config.js`, `ia-worker/wrangler.toml` e nos marcadores de preenchimento dos docs.
 - **Somente leitura** das planilhas: o build só lê o export CSV público.
 - **Nunca** grave tokens, chaves (`ANTHROPIC_API_KEY`), senha da IA Insights ou
   credenciais da Cloudflare em arquivos do repositório — elas vivem só nos

@@ -39,7 +39,7 @@ except ImportError:
         "Veja os comentários em cada campo de build/config.example.py."
     )
 
-_REQUIRED = ("SPREADSHEET_ID", "GID_META", "GID_SALES", "MAIN_PRODUCT_PREFIX",
+_REQUIRED = ("SPREADSHEET_ID", "GID_META", "MAIN_PRODUCT_PREFIX",
              "CLIENT_NAME", "MAIN_PRODUCT")
 _missing = [name for name in _REQUIRED if not getattr(cfg, name, "")]
 if _missing:
@@ -66,7 +66,11 @@ SPREADSHEET_ID = cfg.SPREADSHEET_ID
 # Ausente/vazio -> mesma planilha do Meta Ads (comportamento original).
 SPREADSHEET_ID_SALES = getattr(cfg, "SPREADSHEET_ID_SALES", "") or SPREADSHEET_ID
 GID_META = cfg.GID_META
-GID_SALES = cfg.GID_SALES
+GID_SALES = (getattr(cfg, "GID_SALES", "") or "").strip()
+# Modo "só gerenciador": sem aba de Compradores (GID_SALES vazio). As vendas e o
+# faturamento vêm direto das colunas "Purchases" / "Purchases Conversion Value"
+# da própria aba Meta Ads (atribuição do pixel do Meta) — não há cruzamento.
+META_ONLY = not GID_SALES
 TAX_FACTOR = cfg.TAX_FACTOR
 MAIN_PRODUCT_PREFIX = cfg.MAIN_PRODUCT_PREFIX
 COUNT_ALL_AS_PAID = cfg.COUNT_ALL_AS_PAID
@@ -94,7 +98,7 @@ if AD_UTM_COLUMN not in _AD_UTM_VALIDAS:
 
 EXPORT_URL = "https://docs.google.com/spreadsheets/d/{sid}/export?format=csv&gid={gid}"
 META_CSV_URL = EXPORT_URL.format(sid=SPREADSHEET_ID, gid=GID_META)
-SALES_CSV_URL = EXPORT_URL.format(sid=SPREADSHEET_ID_SALES, gid=GID_SALES)
+SALES_CSV_URL = None if META_ONLY else EXPORT_URL.format(sid=SPREADSHEET_ID_SALES, gid=GID_SALES)
 BRT = timezone(timedelta(hours=-3))   # horário de Brasília (exibição)
 
 
@@ -113,8 +117,10 @@ def read_csv_file(path: str) -> list[list[str]]:
         return list(csv.reader(f))
 
 
-def load_rows(url: str, local: str | None) -> list[list[str]]:
-    return read_csv_file(local) if local else fetch_csv(url)
+def load_rows(url: str | None, local: str | None) -> list[list[str]]:
+    if local:
+        return read_csv_file(local)
+    return fetch_csv(url) if url else []   # url None = modo só gerenciador
 
 
 # --------------------------------------------------------------------------- #
@@ -238,6 +244,11 @@ def process(meta_rows, sales_rows):
          "clicks": ["link clicks", "clicks", "cliques"],
          "pv": ["landing page views", "page views", "pageview", "landing"],
          "ck": ["checkouts initiated", "checkouts", "initiate checkout", "checkout"],
+         # Modo só gerenciador: compras e receita atribuídas pelo próprio Meta.
+         "pu": ["purchases", "compras", "website purchases"],
+         "rev": ["purchases conversion value", "purchase conversion value",
+                 "website purchases conversion value", "conversion value",
+                 "valor de conversao"],
          # Link do criativo no Instagram (coluna acrescentada pelo cliente na aba
          # Meta Ads). Usada na aba Relatórios (Top/Piores anúncios) para linkar o
          # anúncio. Aliases cobrem variações do cabeçalho.
@@ -248,6 +259,7 @@ def process(meta_rows, sales_rows):
     )
 
     meta = []
+    msales = []   # vendas derivadas do Meta (só no modo META_ONLY)
     # (campanha, anúncio) normalizados -> (campanha, conjunto) reais do Meta.
     # A chave inclui a CAMPANHA porque o mesmo nome de anúncio (ex. "AD01") se
     # repete em campanhas diferentes; casar só pelo nome do anúncio atribuiria a
@@ -281,6 +293,20 @@ def process(meta_rows, sales_rows):
             "pv": to_float(cell(row, midx["pv"])),
             "ck": to_float(cell(row, midx["ck"])),
         })
+        if META_ONLY:
+            # Uma venda por compra reportada pelo Meta, com a receita da linha
+            # dividida igualmente. Receita sem compra (atribuição do Meta) entra
+            # só no faturamento (main=0).
+            m = meta[-1]
+            n = int(round(to_float(cell(row, midx["pu"]))))
+            rev = to_float(cell(row, midx["rev"]))
+            base = {"d": m["d"], "camp": camp, "adset": adset, "ad": ad,
+                    "prod": MAIN_PRODUCT, "meta": 1, "nm": "—", "em": "—"}
+            if n > 0:
+                for _ in range(n):
+                    msales.append({**base, "val": round(rev / n, 2), "main": 1})
+            elif rev > 0:
+                msales.append({**base, "val": round(rev, 2), "main": 0})
 
     # ---------------- Aba COMPRADORES ----------------
     # Colunas reais: Data de Criação · Cliente / Nome · Cliente / E-mail · Produto ·
@@ -308,8 +334,8 @@ def process(meta_rows, sales_rows):
         {"created": 3, "name": 1, "email": 2, "prod": 0, "val": 6},
     )
 
-    sales = []
-    for row in sales_rows[1:]:
+    sales = msales if META_ONLY else []
+    for row in ([] if META_ONLY else sales_rows[1:]):
         if not any((c or "").strip() for c in row):
             continue
         if is_test_row(" ".join(str(c) for c in row)):
@@ -371,6 +397,7 @@ def process(meta_rows, sales_rows):
             "main_product": MAIN_PRODUCT,
             "main_product_prefix": MAIN_PRODUCT_PREFIX,
             "ia_worker_url": IA_WORKER_URL,
+            "meta_only": META_ONLY,
             # Metas da aba Relatórios (código de cor de CAC/ROAS)
             "cac_target": CAC_TARGET,
             "roas_target": ROAS_TARGET,
