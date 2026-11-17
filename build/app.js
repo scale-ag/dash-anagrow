@@ -367,11 +367,16 @@ function metaScope(ex){ let fM=metaActive(), fS=salesActive().filter(s=>s.meta);
   if(ex!=='A'&&STATE.mSelA.size){ fM=fM.filter(r=>STATE.mSelA.has(r.adset)); fS=fS.filter(r=>STATE.mSelA.has(r.adset)); }
   if(ex!=='D'&&STATE.mSelAd.size){ fM=fM.filter(r=>STATE.mSelAd.has(r.ad)); fS=fS.filter(r=>STATE.mSelAd.has(r.ad)); }
   return {fM,fS}; }
+/* Seleção em CASCATA (Campanha → Conjunto → Anúncio): clicar num nível mantém
+   os níveis ACIMA e limpa só os ABAIXO. Assim "anúncio X" fica restrito ao
+   conjunto/campanha escolhidos antes — nomes de conjunto/anúncio (C1, AD01...)
+   se repetem entre campanhas e, sem isso, o filtro somaria todos os homônimos.
+   Clique simples no item já marcado (único do nível) desmarca só aquele nível. */
 function selDim(dim,key,ctrl){
-  const sets={C:STATE.mSelC,A:STATE.mSelA,D:STATE.mSelAd}, s=sets[dim];
+  const order=['C','A','D'], sets={C:STATE.mSelC,A:STATE.mSelA,D:STATE.mSelAd}, s=sets[dim];
+  order.slice(order.indexOf(dim)+1).forEach(k=>sets[k].clear());
   if(ctrl){ s.has(key)?s.delete(key):s.add(key); }
-  else { const sole=s.has(key)&&s.size===1&&!Object.entries(sets).some(([k2,x])=>k2!==dim&&x.size);
-    Object.values(sets).forEach(x=>x.clear()); if(!sole) s.add(key); }
+  else { const sole=s.has(key)&&s.size===1; s.clear(); if(!sole) s.add(key); }
   renderMeta();
 }
 function metaPrevTotals(pw){
