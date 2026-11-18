@@ -229,28 +229,62 @@ function hbar(id, items, valFn, color, top, fmtFn){
 }
 /* CAC por dia, por item de uma dimensão (campanha/conjunto/anúncio) - 1 linha por item.
    `dim` = 'camp' | 'adset' | 'ad'; usa os mesmos dados escopados da tabela acima. */
-/* `only` (Set opcional): itens selecionados na tabela desta dimensão. Com
-   seleção, o gráfico mostra SÓ esses itens (ex.: só o criativo filtrado);
-   sem seleção, mostra os 6 de maior gasto. */
+/* `only` (Set opcional): itens selecionados na tabela desta dimensão.
+   - Sem seleção: CAC diário dos 6 itens de maior gasto (só linhas de CAC).
+   - Com seleção: SÓ os itens selecionados, cada um com Vendas (barras),
+     Investido (linha tracejada) e CAC (linha) — 3 eixos: Vendas (esq.),
+     CAC R$ (dir.) e Investido R$ (dir.). Com 1 item, usa as cores semânticas
+     do funil (vendas azul, gasto vermelho, CAC tinta); com vários, a cor do item. */
 function cacDimChart(id, fM, fS, dim, only){
   destroy(id); const el=document.getElementById(id); if(!el) return;
   const spendTot={}; fM.forEach(r=>spendTot[r[dim]]=(spendTot[r[dim]]||0)+r.sp);
   const ranked=Object.keys(spendTot).sort((a,b)=>spendTot[b]-spendTot[a]);
-  const items=(only&&only.size)?ranked.filter(k=>only.has(k)):ranked.slice(0,6);
+  const focus=!!(only&&only.size);
+  const tEl=el.closest('.pair-chart')&&el.closest('.pair-chart').querySelector('.pc-title');
+  if(tEl){ if(!tEl.dataset.base) tEl.dataset.base=tEl.textContent;
+    tEl.textContent=focus?tEl.dataset.base.replace(/^CAC/,'Vendas, investido e CAC'):tEl.dataset.base; }
+  const items=focus?ranked.filter(k=>only.has(k)):ranked.slice(0,6);
   const dset=new Set(); fM.forEach(r=>r.d&&dset.add(r.d)); fS.forEach(r=>r.d&&dset.add(r.d));
   const days=[...dset].sort();
   const K=(c,dd)=>c+'\u0001'+dd, sp={}, vd={};
   fM.forEach(r=>{if(!r.d)return; sp[K(r[dim],r.d)]=(sp[K(r[dim],r.d)]||0)+r.sp;});
   fS.forEach(r=>{if(!r.d)return; vd[K(r[dim],r.d)]=(vd[K(r[dim],r.d)]||0)+r.main;});
-  const PAL=chartPalette();
-  const ds=items.map((c,i)=>({label:c.length>22?c.slice(0,22)+'…':c,
-    data:days.map(dd=>{const s=(sp[K(c,dd)]||0)*taxf(), v=vd[K(c,dd)]||0; return v?+(s/v).toFixed(2):null;}),
-    borderColor:PAL[i%PAL.length],backgroundColor:PAL[i%PAL.length],borderWidth:2,pointRadius:1.5,spanGaps:true,tension:.25}));
-  const mut=cmuted();
-  charts[id]=new Chart(el,{type:'line',data:{labels:days.map(x=>x.slice(5)),datasets:ds},
+  const PAL=chartPalette(), mut=cmuted(), short=c=>c.length>22?c.slice(0,22)+'…':c;
+  const cacOf=(c,dd)=>{const s=(sp[K(c,dd)]||0)*taxf(), v=vd[K(c,dd)]||0; return v?+(s/v).toFixed(2):null;};
+  let ds;
+  if(!focus){
+    ds=items.map((c,i)=>({type:'line',label:short(c),yAxisID:'y',
+      data:days.map(dd=>cacOf(c,dd)),
+      borderColor:PAL[i%PAL.length],backgroundColor:PAL[i%PAL.length],borderWidth:2,pointRadius:1.5,spanGaps:true,tension:.25}));
+  } else {
+    const one=items.length===1;
+    ds=[];
+    items.forEach((c,i)=>{
+      const col=PAL[i%PAL.length], [r,g,b]=hx2rgb(col), pre=one?'':short(c)+' · ';
+      const cV=one?cvar('--chart-vendas'):`rgba(${r},${g},${b},.35)`;
+      const cG=one?cvar('--chart-gasto'):col, cC=one?cink():col;
+      ds.push({type:'bar',label:pre+'Vendas',kind:'v',yAxisID:'yV',order:3,borderRadius:3,
+        data:days.map(dd=>vd[K(c,dd)]||0),backgroundColor:cV,borderColor:cV});
+      ds.push({type:'line',label:pre+'Investido',kind:'g',yAxisID:'yG',order:1,
+        data:days.map(dd=>{const s=sp[K(c,dd)]; return s?+(s*taxf()).toFixed(2):null;}),
+        borderColor:cG,backgroundColor:cG,borderWidth:2,borderDash:[5,4],pointRadius:1.5,spanGaps:true,tension:.25});
+      ds.push({type:'line',label:pre+'CAC',kind:'c',yAxisID:'y',order:0,
+        data:days.map(dd=>cacOf(c,dd)),
+        borderColor:cC,backgroundColor:cC,borderWidth:2,pointRadius:2,spanGaps:true,tension:.25});
+    });
+  }
+  const tick={color:mut,font:{size:9}}, ttl=t=>({display:focus,text:t,color:mut,font:{size:9}});
+  const scales={x:{ticks:{...tick,maxRotation:0,autoSkip:true,autoSkipPadding:8},grid:{display:false}},
+    y:{position:focus?'right':'left',ticks:{...tick,callback:v=>brl(v)},grid:{color:focus?'transparent':cgrid()},beginAtZero:true,title:ttl('CAC')}};
+  if(focus){
+    scales.yV={position:'left',ticks:{...tick,precision:0},grid:{color:cgrid()},beginAtZero:true,title:ttl('Vendas')};
+    scales.yG={position:'right',ticks:{...tick,callback:v=>brl(v)},grid:{display:false},beginAtZero:true,title:ttl('Investido')};
+  }
+  charts[id]=new Chart(el,{data:{labels:days.map(x=>x.slice(5)),datasets:ds},
     options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
-      plugins:{legend:{labels:{color:cink(),boxWidth:8,font:{size:9}}},tooltip:{callbacks:{label:c=>c.dataset.label+': '+brl(c.raw)}}},
-      scales:{x:{ticks:{color:mut,font:{size:9},maxRotation:0,autoSkip:true,autoSkipPadding:8},grid:{display:false}},y:{ticks:{color:mut,font:{size:9},callback:v=>brl(v)},grid:{color:cgrid()},beginAtZero:true}}}});
+      plugins:{legend:{labels:{color:cink(),boxWidth:8,font:{size:9}}},
+        tooltip:{callbacks:{label:c=>c.dataset.label+': '+(c.dataset.kind==='v'?intf(c.raw):brl(c.raw))}}},
+      scales}});
 }
 
 /* ---------------- KPI cards ---------------- */
