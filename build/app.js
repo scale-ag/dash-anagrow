@@ -229,10 +229,14 @@ function hbar(id, items, valFn, color, top, fmtFn){
 }
 /* CAC por dia, por item de uma dimensão (campanha/conjunto/anúncio) - 1 linha por item.
    `dim` = 'camp' | 'adset' | 'ad'; usa os mesmos dados escopados da tabela acima. */
-function cacDimChart(id, fM, fS, dim){
+/* `only` (Set opcional): itens selecionados na tabela desta dimensão. Com
+   seleção, o gráfico mostra SÓ esses itens (ex.: só o criativo filtrado);
+   sem seleção, mostra os 6 de maior gasto. */
+function cacDimChart(id, fM, fS, dim, only){
   destroy(id); const el=document.getElementById(id); if(!el) return;
   const spendTot={}; fM.forEach(r=>spendTot[r[dim]]=(spendTot[r[dim]]||0)+r.sp);
-  const items=Object.keys(spendTot).sort((a,b)=>spendTot[b]-spendTot[a]).slice(0,6);
+  const ranked=Object.keys(spendTot).sort((a,b)=>spendTot[b]-spendTot[a]);
+  const items=(only&&only.size)?ranked.filter(k=>only.has(k)):ranked.slice(0,6);
   const dset=new Set(); fM.forEach(r=>r.d&&dset.add(r.d)); fS.forEach(r=>r.d&&dset.add(r.d));
   const days=[...dset].sort();
   const K=(c,dd)=>c+'\u0001'+dd, sp={}, vd={};
@@ -420,9 +424,9 @@ function renderMeta(){
     selectable:true, selSet:STATE.mSelAd, onSelect:(k,e)=>selDim('D',k,e&&(e.ctrlKey||e.metaKey))});
 
   /* cada gráfico segue a dimensão da tabela acima (mesmos dados escopados) */
-  cacDimChart('chCamp', Sc.fM, Sc.fS, 'camp');
-  cacDimChart('chAdset', Sa.fM, Sa.fS, 'adset');
-  cacDimChart('chAd', Sd.fM, Sd.fS, 'ad');
+  cacDimChart('chCamp', Sc.fM, Sc.fS, 'camp', STATE.mSelC);
+  cacDimChart('chAdset', Sa.fM, Sa.fS, 'adset', STATE.mSelA);
+  cacDimChart('chAd', Sd.fM, Sd.fS, 'ad', STATE.mSelAd);
 
   const vendas=fS.reduce((s,r)=>s+r.main,0);
   document.getElementById('qCount').textContent=vendas+' vendas · '+fS.length+' linhas';
