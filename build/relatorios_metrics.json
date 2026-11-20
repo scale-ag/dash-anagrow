@@ -1,154 +1,154 @@
 {
-  "gerado_em": "19/11/2026 07:46",
-  "hoje": "2026-11-19",
+  "gerado_em": "20/11/2026 07:34",
+  "hoje": "2026-11-20",
   "periodo_dados": {
     "de": "2026-09-22",
-    "ate": "2026-11-19"
+    "ate": "2026-11-20"
   },
   "metas": {
     "cac": 95.0,
     "roas": 2.5
   },
-  "ticket_medio_geral": 285.19,
+  "ticket_medio_geral": 285.23,
   "periodos": {
     "hoje": {
-      "de": "2026-11-19",
-      "ate": "2026-11-19",
+      "de": "2026-11-20",
+      "ate": "2026-11-20",
       "total": {
-        "gasto": 2753.59,
-        "impr": 35864.0,
-        "cliques": 965.0,
-        "pv": 860.0,
-        "ck": 77.0,
-        "vendas": 9,
-        "fat": 1975.17,
-        "cpm": 76.78,
-        "ctr": 0.0269,
-        "cpc": 2.85,
-        "cpv": 3.2,
-        "cr": 0.8912,
-        "cpic": 35.76,
-        "vischk": 0.0895,
-        "convchk": 0.1169,
-        "convlp": 0.0105,
-        "cac": 305.95,
-        "roas": 0.72,
-        "ticket": 219.46
+        "gasto": 1791.16,
+        "impr": 24316.0,
+        "cliques": 543.0,
+        "pv": 477.0,
+        "ck": 61.0,
+        "vendas": 7,
+        "fat": 1958.57,
+        "cpm": 73.66,
+        "ctr": 0.0223,
+        "cpc": 3.3,
+        "cpv": 3.76,
+        "cr": 0.8785,
+        "cpic": 29.36,
+        "vischk": 0.1279,
+        "convchk": 0.1148,
+        "convlp": 0.0147,
+        "cac": 255.88,
+        "roas": 1.09,
+        "ticket": 279.8
       },
       "ads": {
-        "gasto": 2753.59,
-        "impr": 35864.0,
-        "cliques": 965.0,
-        "pv": 860.0,
-        "ck": 77.0,
-        "vendas": 9,
-        "fat": 1975.17,
-        "cpm": 76.78,
-        "ctr": 0.0269,
-        "cpc": 2.85,
-        "cpv": 3.2,
-        "cr": 0.8912,
-        "cpic": 35.76,
-        "vischk": 0.0895,
-        "convchk": 0.1169,
-        "convlp": 0.0105,
-        "cac": 305.95,
-        "roas": 0.72,
-        "ticket": 219.46
+        "gasto": 1791.16,
+        "impr": 24316.0,
+        "cliques": 543.0,
+        "pv": 477.0,
+        "ck": 61.0,
+        "vendas": 7,
+        "fat": 1958.57,
+        "cpm": 73.66,
+        "ctr": 0.0223,
+        "cpc": 3.3,
+        "cpv": 3.76,
+        "cr": 0.8785,
+        "cpic": 29.36,
+        "vischk": 0.1279,
+        "convchk": 0.1148,
+        "convlp": 0.0147,
+        "cac": 255.88,
+        "roas": 1.09,
+        "ticket": 279.8
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 2753.59,
-          "impr": 35864.0,
-          "cliques": 965.0,
-          "pv": 860.0,
-          "ck": 77.0,
-          "vendas": 9,
-          "fat": 1975.17,
-          "cpm": 76.78,
-          "ctr": 0.0269,
-          "cpc": 2.85,
-          "cpv": 3.2,
-          "cr": 0.8912,
-          "cpic": 35.76,
-          "vischk": 0.0895,
-          "convchk": 0.1169,
-          "convlp": 0.0105,
-          "cac": 305.95,
-          "roas": 0.72,
-          "ticket": 219.46
+          "gasto": 1791.16,
+          "impr": 24316.0,
+          "cliques": 543.0,
+          "pv": 477.0,
+          "ck": 61.0,
+          "vendas": 7,
+          "fat": 1958.57,
+          "cpm": 73.66,
+          "ctr": 0.0223,
+          "cpc": 3.3,
+          "cpv": 3.76,
+          "cr": 0.8785,
+          "cpic": 29.36,
+          "vischk": 0.1279,
+          "convchk": 0.1148,
+          "convlp": 0.0147,
+          "cac": 255.88,
+          "roas": 1.09,
+          "ticket": 279.8
         }
       ],
       "top_anuncios": [
         {
           "nome": "TVA1149 | ferrosa",
-          "gasto": 33.62,
+          "gasto": 37.92,
           "vendas": 1,
-          "cac": 33.62,
-          "roas": 14.95
+          "cac": 37.92,
+          "roas": 11.66
         },
         {
-          "nome": "TVJ1288 | tonico",
-          "gasto": 35.67,
+          "nome": "TVJ1248 | OSA — Cópia — Cópia",
+          "gasto": 36.43,
           "vendas": 1,
-          "cac": 35.67,
-          "roas": 8.96
-        },
-        {
-          "nome": "STA0047 — Cópia",
-          "gasto": 18.19,
-          "vendas": 1,
-          "cac": 18.19,
-          "roas": 5.55
-        },
-        {
-          "nome": "TVJ1259 | ferrosa — Cópia",
-          "gasto": 57.79,
-          "vendas": 1,
-          "cac": 57.79,
-          "roas": 1.81
+          "cac": 36.43,
+          "roas": 5.32
         },
         {
           "nome": "Estatico | ferrosa",
-          "gasto": 204.5,
+          "gasto": 131.47,
           "vendas": 1,
-          "cac": 204.5,
-          "roas": 1.7
+          "cac": 131.47,
+          "roas": 1.73
+        },
+        {
+          "nome": "TVJ0588 | Newlash",
+          "gasto": 113.91,
+          "vendas": 1,
+          "cac": 113.91,
+          "roas": 1.66
+        },
+        {
+          "nome": "TVJ1295 | tonico",
+          "gasto": 345.64,
+          "vendas": 2,
+          "cac": 172.82,
+          "roas": 1.37
         }
       ],
       "piores_anuncios": [
         {
-          "nome": "TVJ1266 | ferrosa — Cópia",
-          "gasto": 21.24,
+          "nome": "MagTVJ003 — Cópia",
+          "gasto": 0.06,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "TVJ1257 | Ferrosa — Cópia",
-          "gasto": 0.56,
+          "nome": "TVJ0533 | OSA — Cópia",
+          "gasto": 0.01,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "Ferrosa estatico V2",
-          "gasto": 1.09,
+          "nome": "MagTVJ007 — Cópia",
+          "gasto": 0.26,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "Anaplus estatico V2",
-          "gasto": 0.31,
+          "nome": "Magnesio 2",
+          "gasto": 2.19,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "Anaplus estatico V1",
-          "gasto": 0.99,
+          "nome": "OSA 2",
+          "gasto": 5.13,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -156,88 +156,225 @@
       ]
     },
     "ontem": {
-      "de": "2026-11-18",
-      "ate": "2026-11-18",
+      "de": "2026-11-19",
+      "ate": "2026-11-19",
       "total": {
-        "gasto": 19279.82,
-        "impr": 360657.0,
-        "cliques": 6361.0,
-        "pv": 5797.0,
-        "ck": 916.0,
-        "vendas": 179,
-        "fat": 49553.92,
-        "cpm": 53.46,
-        "ctr": 0.0176,
-        "cpc": 3.03,
-        "cpv": 3.33,
-        "cr": 0.9113,
-        "cpic": 21.05,
-        "vischk": 0.158,
-        "convchk": 0.1954,
-        "convlp": 0.0309,
-        "cac": 107.71,
-        "roas": 2.57,
-        "ticket": 276.84
+        "gasto": 20216.42,
+        "impr": 325594.0,
+        "cliques": 6919.0,
+        "pv": 6374.0,
+        "ck": 896.0,
+        "vendas": 157,
+        "fat": 44336.32,
+        "cpm": 62.09,
+        "ctr": 0.0213,
+        "cpc": 2.92,
+        "cpv": 3.17,
+        "cr": 0.9212,
+        "cpic": 22.56,
+        "vischk": 0.1406,
+        "convchk": 0.1752,
+        "convlp": 0.0246,
+        "cac": 128.77,
+        "roas": 2.19,
+        "ticket": 282.4
       },
       "ads": {
-        "gasto": 19279.82,
-        "impr": 360657.0,
-        "cliques": 6361.0,
-        "pv": 5797.0,
-        "ck": 916.0,
-        "vendas": 179,
-        "fat": 49553.92,
-        "cpm": 53.46,
-        "ctr": 0.0176,
-        "cpc": 3.03,
-        "cpv": 3.33,
-        "cr": 0.9113,
-        "cpic": 21.05,
-        "vischk": 0.158,
-        "convchk": 0.1954,
-        "convlp": 0.0309,
-        "cac": 107.71,
-        "roas": 2.57,
-        "ticket": 276.84
+        "gasto": 20216.42,
+        "impr": 325594.0,
+        "cliques": 6919.0,
+        "pv": 6374.0,
+        "ck": 896.0,
+        "vendas": 157,
+        "fat": 44336.32,
+        "cpm": 62.09,
+        "ctr": 0.0213,
+        "cpc": 2.92,
+        "cpv": 3.17,
+        "cr": 0.9212,
+        "cpic": 22.56,
+        "vischk": 0.1406,
+        "convchk": 0.1752,
+        "convlp": 0.0246,
+        "cac": 128.77,
+        "roas": 2.19,
+        "ticket": 282.4
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 19279.82,
-          "impr": 360657.0,
-          "cliques": 6361.0,
-          "pv": 5797.0,
-          "ck": 916.0,
-          "vendas": 179,
-          "fat": 49553.92,
-          "cpm": 53.46,
-          "ctr": 0.0176,
-          "cpc": 3.03,
-          "cpv": 3.33,
-          "cr": 0.9113,
-          "cpic": 21.05,
-          "vischk": 0.158,
-          "convchk": 0.1954,
-          "convlp": 0.0309,
-          "cac": 107.71,
-          "roas": 2.57,
-          "ticket": 276.84
+          "gasto": 20216.42,
+          "impr": 325594.0,
+          "cliques": 6919.0,
+          "pv": 6374.0,
+          "ck": 896.0,
+          "vendas": 157,
+          "fat": 44336.32,
+          "cpm": 62.09,
+          "ctr": 0.0213,
+          "cpc": 2.92,
+          "cpv": 3.17,
+          "cr": 0.9212,
+          "cpic": 22.56,
+          "vischk": 0.1406,
+          "convchk": 0.1752,
+          "convlp": 0.0246,
+          "cac": 128.77,
+          "roas": 2.19,
+          "ticket": 282.4
         }
       ],
       "top_anuncios": [
         {
-          "nome": "STA0109 | NewLash",
-          "gasto": 3.3,
+          "nome": "STA0085_Prancheta 8",
+          "gasto": 1.82,
           "vendas": 1,
-          "cac": 3.3,
-          "roas": 141.16
+          "cac": 1.82,
+          "roas": 299.87
         },
         {
-          "nome": "TVJ1231 | Mag — Cópia",
-          "gasto": 9.53,
+          "nome": "TVA1177 — Cópia",
+          "gasto": 5.11,
+          "vendas": 1,
+          "cac": 5.11,
+          "roas": 102.31
+        },
+        {
+          "nome": "TVA0878 | tonico",
+          "gasto": 5.76,
+          "vendas": 1,
+          "cac": 5.76,
+          "roas": 75.61
+        },
+        {
+          "nome": "TVA1078",
+          "gasto": 4.64,
+          "vendas": 1,
+          "cac": 4.64,
+          "roas": 21.69
+        },
+        {
+          "nome": "STA0049 — Cópia",
+          "gasto": 55.98,
+          "vendas": 1,
+          "cac": 55.98,
+          "roas": 16.19
+        }
+      ],
+      "piores_anuncios": [
+        {
+          "nome": "TVA1151 | B12 — Cópia",
+          "gasto": 7.09,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1252 | b12 — Cópia",
+          "gasto": 6.15,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ0914 | ferrosa — Cópia",
+          "gasto": 9.88,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1152 | Mag — Cópia",
+          "gasto": 0.61,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1266 | ferrosa — Cópia",
+          "gasto": 281.54,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
+    },
+    "3d": {
+      "de": "2026-11-18",
+      "ate": "2026-11-20",
+      "total": {
+        "gasto": 41326.93,
+        "impr": 711039.0,
+        "cliques": 13831.0,
+        "pv": 12648.0,
+        "ck": 1873.0,
+        "vendas": 343,
+        "fat": 95848.81,
+        "cpm": 58.12,
+        "ctr": 0.0195,
+        "cpc": 2.99,
+        "cpv": 3.27,
+        "cr": 0.9145,
+        "cpic": 22.06,
+        "vischk": 0.1481,
+        "convchk": 0.1831,
+        "convlp": 0.0271,
+        "cac": 120.49,
+        "roas": 2.32,
+        "ticket": 279.44
+      },
+      "ads": {
+        "gasto": 41326.93,
+        "impr": 711039.0,
+        "cliques": 13831.0,
+        "pv": 12648.0,
+        "ck": 1873.0,
+        "vendas": 343,
+        "fat": 95848.81,
+        "cpm": 58.12,
+        "ctr": 0.0195,
+        "cpc": 2.99,
+        "cpv": 3.27,
+        "cr": 0.9145,
+        "cpic": 22.06,
+        "vischk": 0.1481,
+        "convchk": 0.1831,
+        "convlp": 0.0271,
+        "cac": 120.49,
+        "roas": 2.32,
+        "ticket": 279.44
+      },
+      "campanhas": [
+        {
+          "nome": "CPA Cap | Scale",
+          "gasto": 41326.93,
+          "impr": 711039.0,
+          "cliques": 13831.0,
+          "pv": 12648.0,
+          "ck": 1873.0,
+          "vendas": 343,
+          "fat": 95848.81,
+          "cpm": 58.12,
+          "ctr": 0.0195,
+          "cpc": 2.99,
+          "cpv": 3.27,
+          "cr": 0.9145,
+          "cpic": 22.06,
+          "vischk": 0.1481,
+          "convchk": 0.1831,
+          "convlp": 0.0271,
+          "cac": 120.49,
+          "roas": 2.32,
+          "ticket": 279.44
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "STA0085_Prancheta 8",
+          "gasto": 10.8,
           "vendas": 2,
-          "cac": 4.76,
-          "roas": 74.83
+          "cac": 5.4,
+          "roas": 81.23
         },
         {
           "nome": "TVJ1284 — Cópia",
@@ -247,196 +384,59 @@
           "roas": 74.03
         },
         {
-          "nome": "STA0079_Prancheta 4",
-          "gasto": 21.68,
-          "vendas": 2,
-          "cac": 10.84,
-          "roas": 48.77
+          "nome": "TVA1177 — Cópia",
+          "gasto": 9.9,
+          "vendas": 1,
+          "cac": 9.9,
+          "roas": 52.8
         },
         {
-          "nome": "STA0085_Prancheta 8",
-          "gasto": 8.89,
+          "nome": "TVA0878 | tonico",
+          "gasto": 8.97,
           "vendas": 1,
-          "cac": 8.89,
-          "roas": 37.27
+          "cac": 8.97,
+          "roas": 48.55
+        },
+        {
+          "nome": "STA0079_Prancheta 4",
+          "gasto": 22.31,
+          "vendas": 2,
+          "cac": 11.15,
+          "roas": 47.41
         }
       ],
       "piores_anuncios": [
         {
-          "nome": "TVA1152 | Mag — Cópia",
-          "gasto": 0.58,
+          "nome": "TVJ1224 | Ferritin — Cópia",
+          "gasto": 2.85,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "TVJ1252 | b12 — Cópia",
-          "gasto": 2.77,
+          "nome": "TVA0885 | tonico",
+          "gasto": 0.28,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "TVJ1257 | Ferrosa — Cópia",
-          "gasto": 6.62,
+          "nome": "TVJ1325 | newLash",
+          "gasto": 0.24,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "GlowOil estatico V1",
-          "gasto": 5.53,
+          "nome": "TVA0140 | New Lash",
+          "gasto": 0.01,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "Ferrosa estatico V2",
-          "gasto": 17.89,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        }
-      ]
-    },
-    "3d": {
-      "de": "2026-11-17",
-      "ate": "2026-11-19",
-      "total": {
-        "gasto": 33281.85,
-        "impr": 629298.0,
-        "cliques": 11332.0,
-        "pv": 10336.0,
-        "ck": 1475.0,
-        "vendas": 279,
-        "fat": 76397.86,
-        "cpm": 52.89,
-        "ctr": 0.018,
-        "cpc": 2.94,
-        "cpv": 3.22,
-        "cr": 0.9121,
-        "cpic": 22.56,
-        "vischk": 0.1427,
-        "convchk": 0.1892,
-        "convlp": 0.027,
-        "cac": 119.29,
-        "roas": 2.3,
-        "ticket": 273.83
-      },
-      "ads": {
-        "gasto": 33281.85,
-        "impr": 629298.0,
-        "cliques": 11332.0,
-        "pv": 10336.0,
-        "ck": 1475.0,
-        "vendas": 279,
-        "fat": 76397.86,
-        "cpm": 52.89,
-        "ctr": 0.018,
-        "cpc": 2.94,
-        "cpv": 3.22,
-        "cr": 0.9121,
-        "cpic": 22.56,
-        "vischk": 0.1427,
-        "convchk": 0.1892,
-        "convlp": 0.027,
-        "cac": 119.29,
-        "roas": 2.3,
-        "ticket": 273.83
-      },
-      "campanhas": [
-        {
-          "nome": "CPA Cap | Scale",
-          "gasto": 33281.85,
-          "impr": 629298.0,
-          "cliques": 11332.0,
-          "pv": 10336.0,
-          "ck": 1475.0,
-          "vendas": 279,
-          "fat": 76397.86,
-          "cpm": 52.89,
-          "ctr": 0.018,
-          "cpc": 2.94,
-          "cpv": 3.22,
-          "cr": 0.9121,
-          "cpic": 22.56,
-          "vischk": 0.1427,
-          "convchk": 0.1892,
-          "convlp": 0.027,
-          "cac": 119.29,
-          "roas": 2.3,
-          "ticket": 273.83
-        }
-      ],
-      "top_anuncios": [
-        {
-          "nome": "STA0109 | NewLash",
-          "gasto": 3.36,
-          "vendas": 1,
-          "cac": 3.36,
-          "roas": 138.77
-        },
-        {
-          "nome": "TVJ1231 | Mag — Cópia",
-          "gasto": 12.27,
-          "vendas": 2,
-          "cac": 6.13,
-          "roas": 58.1
-        },
-        {
-          "nome": "TVJ0633 | NewLash",
-          "gasto": 5.37,
-          "vendas": 1,
-          "cac": 5.37,
-          "roas": 24.51
-        },
-        {
-          "nome": "STA0099 | newLash",
-          "gasto": 39.89,
-          "vendas": 2,
-          "cac": 19.94,
-          "roas": 22.82
-        },
-        {
-          "nome": "STA0079_Prancheta 4",
-          "gasto": 46.91,
-          "vendas": 2,
-          "cac": 23.46,
-          "roas": 22.54
-        }
-      ],
-      "piores_anuncios": [
-        {
-          "nome": "Magnesio 4",
-          "gasto": 0.09,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA0974 | tonico",
-          "gasto": 0.06,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA0991 | tonico",
-          "gasto": 0.48,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1203 | tonico",
-          "gasto": 0.23,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1315 | tonico",
-          "gasto": 1.06,
+          "nome": "Anaplus estatico V1",
+          "gasto": 72.97,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -444,143 +444,143 @@
       ]
     },
     "7d": {
-      "de": "2026-11-13",
-      "ate": "2026-11-19",
+      "de": "2026-11-14",
+      "ate": "2026-11-20",
       "total": {
-        "gasto": 79745.43,
-        "impr": 1653674.0,
-        "cliques": 28272.0,
-        "pv": 25763.0,
-        "ck": 3532.0,
-        "vendas": 657,
-        "fat": 174170.59,
-        "cpm": 48.22,
-        "ctr": 0.0171,
+        "gasto": 89142.95,
+        "impr": 1754132.0,
+        "cliques": 31637.0,
+        "pv": 28953.0,
+        "ck": 3958.0,
+        "vendas": 736,
+        "fat": 197020.27,
+        "cpm": 50.82,
+        "ctr": 0.018,
         "cpc": 2.82,
-        "cpv": 3.1,
-        "cr": 0.9113,
-        "cpic": 22.58,
-        "vischk": 0.1371,
+        "cpv": 3.08,
+        "cr": 0.9152,
+        "cpic": 22.52,
+        "vischk": 0.1367,
         "convchk": 0.186,
-        "convlp": 0.0255,
-        "cac": 121.38,
-        "roas": 2.18,
-        "ticket": 265.1
+        "convlp": 0.0254,
+        "cac": 121.12,
+        "roas": 2.21,
+        "ticket": 267.69
       },
       "ads": {
-        "gasto": 79745.43,
-        "impr": 1653674.0,
-        "cliques": 28272.0,
-        "pv": 25763.0,
-        "ck": 3532.0,
-        "vendas": 657,
-        "fat": 174170.59,
-        "cpm": 48.22,
-        "ctr": 0.0171,
+        "gasto": 89142.95,
+        "impr": 1754132.0,
+        "cliques": 31637.0,
+        "pv": 28953.0,
+        "ck": 3958.0,
+        "vendas": 736,
+        "fat": 197020.27,
+        "cpm": 50.82,
+        "ctr": 0.018,
         "cpc": 2.82,
-        "cpv": 3.1,
-        "cr": 0.9113,
-        "cpic": 22.58,
-        "vischk": 0.1371,
+        "cpv": 3.08,
+        "cr": 0.9152,
+        "cpic": 22.52,
+        "vischk": 0.1367,
         "convchk": 0.186,
-        "convlp": 0.0255,
-        "cac": 121.38,
-        "roas": 2.18,
-        "ticket": 265.1
+        "convlp": 0.0254,
+        "cac": 121.12,
+        "roas": 2.21,
+        "ticket": 267.69
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 79745.43,
-          "impr": 1653674.0,
-          "cliques": 28272.0,
-          "pv": 25763.0,
-          "ck": 3532.0,
-          "vendas": 657,
-          "fat": 174170.59,
-          "cpm": 48.22,
-          "ctr": 0.0171,
+          "gasto": 89142.95,
+          "impr": 1754132.0,
+          "cliques": 31637.0,
+          "pv": 28953.0,
+          "ck": 3958.0,
+          "vendas": 736,
+          "fat": 197020.27,
+          "cpm": 50.82,
+          "ctr": 0.018,
           "cpc": 2.82,
-          "cpv": 3.1,
-          "cr": 0.9113,
-          "cpic": 22.58,
-          "vischk": 0.1371,
+          "cpv": 3.08,
+          "cr": 0.9152,
+          "cpic": 22.52,
+          "vischk": 0.1367,
           "convchk": 0.186,
-          "convlp": 0.0255,
-          "cac": 121.38,
-          "roas": 2.18,
-          "ticket": 265.1
+          "convlp": 0.0254,
+          "cac": 121.12,
+          "roas": 2.21,
+          "ticket": 267.69
         }
       ],
       "top_anuncios": [
         {
-          "nome": "STA0109 | NewLash",
-          "gasto": 3.36,
+          "nome": "TVA0878 | tonico",
+          "gasto": 8.97,
           "vendas": 1,
-          "cac": 3.36,
-          "roas": 138.77
+          "cac": 8.97,
+          "roas": 48.55
         },
         {
           "nome": "TVA0782 | Anaplus",
-          "gasto": 10.04,
+          "gasto": 9.18,
           "vendas": 1,
-          "cac": 10.04,
-          "roas": 41.4
+          "cac": 9.18,
+          "roas": 45.25
         },
         {
-          "nome": "TVA1170 — Cópia",
-          "gasto": 12.81,
+          "nome": "STA0109 | NewLash",
+          "gasto": 21.57,
           "vendas": 1,
-          "cac": 12.81,
-          "roas": 34.14
+          "cac": 21.57,
+          "roas": 21.6
         },
         {
-          "nome": "TVJ0633 | NewLash",
-          "gasto": 5.37,
+          "nome": "TVA1177 — Cópia",
+          "gasto": 28.5,
           "vendas": 1,
-          "cac": 5.37,
-          "roas": 24.51
+          "cac": 28.5,
+          "roas": 18.35
         },
         {
-          "nome": "STA0099 | newLash",
-          "gasto": 39.89,
-          "vendas": 2,
-          "cac": 19.94,
-          "roas": 22.82
+          "nome": "TVA1078",
+          "gasto": 22.47,
+          "vendas": 3,
+          "cac": 7.49,
+          "roas": 17.45
         }
       ],
       "piores_anuncios": [
         {
+          "nome": "TVA0885 | tonico",
+          "gasto": 0.28,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1325 | newLash",
+          "gasto": 0.24,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0140 | New Lash",
+          "gasto": 0.01,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
           "nome": "TVA0974 | tonico",
-          "gasto": 0.06,
+          "gasto": 0.16,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
           "nome": "TVA0991 | tonico",
-          "gasto": 0.48,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1203 | tonico",
-          "gasto": 0.23,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1315 | tonico",
-          "gasto": 1.06,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1206 | tonico",
-          "gasto": 5.31,
+          "gasto": 0.58,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -588,81 +588,81 @@
       ]
     },
     "14d": {
-      "de": "2026-11-06",
-      "ate": "2026-11-19",
+      "de": "2026-11-07",
+      "ate": "2026-11-20",
       "total": {
-        "gasto": 162046.01,
-        "impr": 3282266.0,
-        "cliques": 54682.0,
-        "pv": 49634.0,
-        "ck": 6987.0,
-        "vendas": 1309,
-        "fat": 354134.86,
-        "cpm": 49.37,
-        "ctr": 0.0167,
-        "cpc": 2.96,
-        "cpv": 3.26,
-        "cr": 0.9077,
-        "cpic": 23.19,
-        "vischk": 0.1408,
-        "convchk": 0.1873,
-        "convlp": 0.0264,
-        "cac": 123.79,
-        "roas": 2.19,
-        "ticket": 270.54
+        "gasto": 170102.9,
+        "impr": 3376116.0,
+        "cliques": 57836.0,
+        "pv": 52625.0,
+        "ck": 7425.0,
+        "vendas": 1377,
+        "fat": 375279.87,
+        "cpm": 50.38,
+        "ctr": 0.0171,
+        "cpc": 2.94,
+        "cpv": 3.23,
+        "cr": 0.9099,
+        "cpic": 22.91,
+        "vischk": 0.1411,
+        "convchk": 0.1855,
+        "convlp": 0.0262,
+        "cac": 123.53,
+        "roas": 2.21,
+        "ticket": 272.53
       },
       "ads": {
-        "gasto": 162046.01,
-        "impr": 3282266.0,
-        "cliques": 54682.0,
-        "pv": 49634.0,
-        "ck": 6987.0,
-        "vendas": 1309,
-        "fat": 354134.86,
-        "cpm": 49.37,
-        "ctr": 0.0167,
-        "cpc": 2.96,
-        "cpv": 3.26,
-        "cr": 0.9077,
-        "cpic": 23.19,
-        "vischk": 0.1408,
-        "convchk": 0.1873,
-        "convlp": 0.0264,
-        "cac": 123.79,
-        "roas": 2.19,
-        "ticket": 270.54
+        "gasto": 170102.9,
+        "impr": 3376116.0,
+        "cliques": 57836.0,
+        "pv": 52625.0,
+        "ck": 7425.0,
+        "vendas": 1377,
+        "fat": 375279.87,
+        "cpm": 50.38,
+        "ctr": 0.0171,
+        "cpc": 2.94,
+        "cpv": 3.23,
+        "cr": 0.9099,
+        "cpic": 22.91,
+        "vischk": 0.1411,
+        "convchk": 0.1855,
+        "convlp": 0.0262,
+        "cac": 123.53,
+        "roas": 2.21,
+        "ticket": 272.53
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 162046.01,
-          "impr": 3282266.0,
-          "cliques": 54682.0,
-          "pv": 49634.0,
-          "ck": 6987.0,
-          "vendas": 1309,
-          "fat": 354134.86,
-          "cpm": 49.37,
-          "ctr": 0.0167,
-          "cpc": 2.96,
-          "cpv": 3.26,
-          "cr": 0.9077,
-          "cpic": 23.19,
-          "vischk": 0.1408,
-          "convchk": 0.1873,
-          "convlp": 0.0264,
-          "cac": 123.79,
-          "roas": 2.19,
-          "ticket": 270.54
+          "gasto": 170102.9,
+          "impr": 3376116.0,
+          "cliques": 57836.0,
+          "pv": 52625.0,
+          "ck": 7425.0,
+          "vendas": 1377,
+          "fat": 375279.87,
+          "cpm": 50.38,
+          "ctr": 0.0171,
+          "cpc": 2.94,
+          "cpv": 3.23,
+          "cr": 0.9099,
+          "cpic": 22.91,
+          "vischk": 0.1411,
+          "convchk": 0.1855,
+          "convlp": 0.0262,
+          "cac": 123.53,
+          "roas": 2.21,
+          "ticket": 272.53
         }
       ],
       "top_anuncios": [
         {
-          "nome": "STA0109 | NewLash",
-          "gasto": 3.36,
+          "nome": "TVA0878 | tonico",
+          "gasto": 8.97,
           "vendas": 1,
-          "cac": 3.36,
-          "roas": 138.77
+          "cac": 8.97,
+          "roas": 48.55
         },
         {
           "nome": "TVA1199",
@@ -673,58 +673,58 @@
         },
         {
           "nome": "TVA1170 — Cópia",
-          "gasto": 15.99,
+          "gasto": 18.1,
           "vendas": 1,
-          "cac": 15.99,
-          "roas": 27.36
+          "cac": 18.1,
+          "roas": 24.18
         },
         {
-          "nome": "TVJ0633 | NewLash",
-          "gasto": 5.37,
+          "nome": "STA0109 | NewLash",
+          "gasto": 21.57,
           "vendas": 1,
-          "cac": 5.37,
-          "roas": 24.51
+          "cac": 21.57,
+          "roas": 21.6
         },
         {
-          "nome": "STA0099 | newLash",
-          "gasto": 39.89,
-          "vendas": 2,
-          "cac": 19.94,
-          "roas": 22.82
+          "nome": "B12 esttaico V2",
+          "gasto": 21.01,
+          "vendas": 1,
+          "cac": 21.01,
+          "roas": 20.85
         }
       ],
       "piores_anuncios": [
         {
+          "nome": "TVA0885 | tonico",
+          "gasto": 0.28,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1325 | newLash",
+          "gasto": 0.24,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0140 | New Lash",
+          "gasto": 0.01,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
           "nome": "TVA0974 | tonico",
-          "gasto": 0.06,
+          "gasto": 0.16,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
           "nome": "TVA0991 | tonico",
-          "gasto": 0.48,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1203 | tonico",
-          "gasto": 0.23,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1315 | tonico",
-          "gasto": 1.06,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1206 | tonico",
-          "gasto": 5.31,
+          "gasto": 0.58,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -732,72 +732,72 @@
       ]
     },
     "30d": {
-      "de": "2026-10-21",
-      "ate": "2026-11-19",
+      "de": "2026-10-22",
+      "ate": "2026-11-20",
       "total": {
-        "gasto": 236269.2,
-        "impr": 5255102.0,
-        "cliques": 80079.0,
-        "pv": 72498.0,
-        "ck": 10271.0,
-        "vendas": 1942,
-        "fat": 539758.3,
-        "cpm": 44.96,
-        "ctr": 0.0152,
+        "gasto": 253144.92,
+        "impr": 5510909.0,
+        "cliques": 85957.0,
+        "pv": 77915.0,
+        "ck": 10968.0,
+        "vendas": 2061,
+        "fat": 573974.05,
+        "cpm": 45.94,
+        "ctr": 0.0156,
         "cpc": 2.95,
-        "cpv": 3.26,
-        "cr": 0.9053,
-        "cpic": 23.0,
-        "vischk": 0.1417,
-        "convchk": 0.1891,
-        "convlp": 0.0268,
-        "cac": 121.66,
-        "roas": 2.28,
-        "ticket": 277.94
+        "cpv": 3.25,
+        "cr": 0.9064,
+        "cpic": 23.08,
+        "vischk": 0.1408,
+        "convchk": 0.1879,
+        "convlp": 0.0265,
+        "cac": 122.83,
+        "roas": 2.27,
+        "ticket": 278.49
       },
       "ads": {
-        "gasto": 236269.2,
-        "impr": 5255102.0,
-        "cliques": 80079.0,
-        "pv": 72498.0,
-        "ck": 10271.0,
-        "vendas": 1942,
-        "fat": 539758.3,
-        "cpm": 44.96,
-        "ctr": 0.0152,
+        "gasto": 253144.92,
+        "impr": 5510909.0,
+        "cliques": 85957.0,
+        "pv": 77915.0,
+        "ck": 10968.0,
+        "vendas": 2061,
+        "fat": 573974.05,
+        "cpm": 45.94,
+        "ctr": 0.0156,
         "cpc": 2.95,
-        "cpv": 3.26,
-        "cr": 0.9053,
-        "cpic": 23.0,
-        "vischk": 0.1417,
-        "convchk": 0.1891,
-        "convlp": 0.0268,
-        "cac": 121.66,
-        "roas": 2.28,
-        "ticket": 277.94
+        "cpv": 3.25,
+        "cr": 0.9064,
+        "cpic": 23.08,
+        "vischk": 0.1408,
+        "convchk": 0.1879,
+        "convlp": 0.0265,
+        "cac": 122.83,
+        "roas": 2.27,
+        "ticket": 278.49
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 232215.24,
-          "impr": 5158952.0,
-          "cliques": 78254.0,
-          "pv": 70839.0,
-          "ck": 10081.0,
-          "vendas": 1910,
-          "fat": 530939.25,
-          "cpm": 45.01,
-          "ctr": 0.0152,
-          "cpc": 2.97,
-          "cpv": 3.28,
-          "cr": 0.9052,
-          "cpic": 23.03,
-          "vischk": 0.1423,
-          "convchk": 0.1895,
-          "convlp": 0.027,
-          "cac": 121.58,
-          "roas": 2.29,
-          "ticket": 277.98
+          "gasto": 249090.96,
+          "impr": 5414759.0,
+          "cliques": 84132.0,
+          "pv": 76256.0,
+          "ck": 10780.0,
+          "vendas": 2030,
+          "fat": 565485.94,
+          "cpm": 46.0,
+          "ctr": 0.0155,
+          "cpc": 2.96,
+          "cpv": 3.27,
+          "cr": 0.9064,
+          "cpic": 23.11,
+          "vischk": 0.1414,
+          "convchk": 0.1883,
+          "convlp": 0.0266,
+          "cac": 122.7,
+          "roas": 2.27,
+          "ticket": 278.56
         },
         {
           "nome": "CPAcap | Catalogo | Ig drjoaogf",
@@ -888,28 +888,6 @@
           "ticket": null
         },
         {
-          "nome": "CPA Cap | Scale | V2",
-          "gasto": 0.0,
-          "impr": 0.0,
-          "cliques": 0.0,
-          "pv": 0.0,
-          "ck": 2.0,
-          "vendas": 1,
-          "fat": 330.94,
-          "cpm": null,
-          "ctr": null,
-          "cpc": null,
-          "cpv": null,
-          "cr": null,
-          "cpic": 0.0,
-          "vischk": null,
-          "convchk": 0.5,
-          "convlp": null,
-          "cac": 0.0,
-          "roas": null,
-          "ticket": 330.94
-        },
-        {
           "nome": "CPA cap | Vendas | Validados | IG Drjoaogf",
           "gasto": 0.0,
           "impr": 0.0,
@@ -930,15 +908,37 @@
           "cac": 0.0,
           "roas": null,
           "ticket": 124.22
+        },
+        {
+          "nome": "CPA Cap | Scale | V2",
+          "gasto": 0.0,
+          "impr": 0.0,
+          "cliques": 0.0,
+          "pv": 0.0,
+          "ck": 0.0,
+          "vendas": 0,
+          "fat": 0.0,
+          "cpm": null,
+          "ctr": null,
+          "cpc": null,
+          "cpv": null,
+          "cr": null,
+          "cpic": null,
+          "vischk": null,
+          "convchk": null,
+          "convlp": null,
+          "cac": null,
+          "roas": null,
+          "ticket": null
         }
       ],
       "top_anuncios": [
         {
-          "nome": "STA0109 | NewLash",
-          "gasto": 3.36,
+          "nome": "TVA0878 | tonico",
+          "gasto": 8.97,
           "vendas": 1,
-          "cac": 3.36,
-          "roas": 138.77
+          "cac": 8.97,
+          "roas": 48.55
         },
         {
           "nome": "TVA1199",
@@ -949,58 +949,58 @@
         },
         {
           "nome": "TVA1170 — Cópia",
-          "gasto": 15.99,
+          "gasto": 18.1,
           "vendas": 1,
-          "cac": 15.99,
-          "roas": 27.36
+          "cac": 18.1,
+          "roas": 24.18
         },
         {
-          "nome": "MagTVJ004 — Cópia",
-          "gasto": 9.06,
-          "vendas": 1,
-          "cac": 9.06,
-          "roas": 25.83
+          "nome": "TVJ1246 | OSA — Cópia",
+          "gasto": 48.13,
+          "vendas": 3,
+          "cac": 16.04,
+          "roas": 22.74
         },
         {
-          "nome": "TVJ0633 | NewLash",
-          "gasto": 5.37,
+          "nome": "STA0109 | NewLash",
+          "gasto": 21.57,
           "vendas": 1,
-          "cac": 5.37,
-          "roas": 24.51
+          "cac": 21.57,
+          "roas": 21.6
         }
       ],
       "piores_anuncios": [
         {
+          "nome": "TVA0885 | tonico",
+          "gasto": 0.28,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1325 | newLash",
+          "gasto": 0.24,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0140 | New Lash",
+          "gasto": 0.01,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
           "nome": "TVA0974 | tonico",
-          "gasto": 0.06,
+          "gasto": 0.16,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
           "nome": "TVA0991 | tonico",
-          "gasto": 0.48,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1203 | tonico",
-          "gasto": 0.23,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1315 | tonico",
-          "gasto": 1.06,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1206 | tonico",
-          "gasto": 5.31,
+          "gasto": 0.58,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -1009,71 +1009,71 @@
     },
     "mes": {
       "de": "2026-11-01",
-      "ate": "2026-11-19",
+      "ate": "2026-11-20",
       "total": {
-        "gasto": 209574.77,
-        "impr": 4516602.0,
-        "cliques": 71283.0,
-        "pv": 64483.0,
-        "ck": 8960.0,
-        "vendas": 1685,
-        "fat": 464461.21,
-        "cpm": 46.4,
-        "ctr": 0.0158,
+        "gasto": 228868.42,
+        "impr": 4831125.0,
+        "cliques": 77788.0,
+        "pv": 70474.0,
+        "ck": 9840.0,
+        "vendas": 1840,
+        "fat": 508780.93,
+        "cpm": 47.37,
+        "ctr": 0.0161,
         "cpc": 2.94,
         "cpv": 3.25,
-        "cr": 0.9046,
-        "cpic": 23.39,
-        "vischk": 0.139,
-        "convchk": 0.1881,
+        "cr": 0.906,
+        "cpic": 23.26,
+        "vischk": 0.1396,
+        "convchk": 0.187,
         "convlp": 0.0261,
-        "cac": 124.38,
+        "cac": 124.39,
         "roas": 2.22,
-        "ticket": 275.64
+        "ticket": 276.51
       },
       "ads": {
-        "gasto": 209574.77,
-        "impr": 4516602.0,
-        "cliques": 71283.0,
-        "pv": 64483.0,
-        "ck": 8960.0,
-        "vendas": 1685,
-        "fat": 464461.21,
-        "cpm": 46.4,
-        "ctr": 0.0158,
+        "gasto": 228868.42,
+        "impr": 4831125.0,
+        "cliques": 77788.0,
+        "pv": 70474.0,
+        "ck": 9840.0,
+        "vendas": 1840,
+        "fat": 508780.93,
+        "cpm": 47.37,
+        "ctr": 0.0161,
         "cpc": 2.94,
         "cpv": 3.25,
-        "cr": 0.9046,
-        "cpic": 23.39,
-        "vischk": 0.139,
-        "convchk": 0.1881,
+        "cr": 0.906,
+        "cpic": 23.26,
+        "vischk": 0.1396,
+        "convchk": 0.187,
         "convlp": 0.0261,
-        "cac": 124.38,
+        "cac": 124.39,
         "roas": 2.22,
-        "ticket": 275.64
+        "ticket": 276.51
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 208437.51,
-          "impr": 4494919.0,
-          "cliques": 70883.0,
-          "pv": 64114.0,
-          "ck": 8893.0,
-          "vendas": 1673,
-          "fat": 461391.65,
-          "cpm": 46.37,
-          "ctr": 0.0158,
+          "gasto": 227731.15,
+          "impr": 4809442.0,
+          "cliques": 77388.0,
+          "pv": 70105.0,
+          "ck": 9773.0,
+          "vendas": 1828,
+          "fat": 505711.37,
+          "cpm": 47.35,
+          "ctr": 0.0161,
           "cpc": 2.94,
           "cpv": 3.25,
-          "cr": 0.9045,
-          "cpic": 23.44,
-          "vischk": 0.1387,
-          "convchk": 0.1881,
+          "cr": 0.9059,
+          "cpic": 23.3,
+          "vischk": 0.1394,
+          "convchk": 0.187,
           "convlp": 0.0261,
-          "cac": 124.59,
-          "roas": 2.21,
-          "ticket": 275.79
+          "cac": 124.58,
+          "roas": 2.22,
+          "ticket": 276.65
         },
         {
           "nome": "Vendas | novembro | Black fiday | CPA cap",
@@ -1122,11 +1122,11 @@
       ],
       "top_anuncios": [
         {
-          "nome": "STA0109 | NewLash",
-          "gasto": 3.36,
+          "nome": "TVA0878 | tonico",
+          "gasto": 8.97,
           "vendas": 1,
-          "cac": 3.36,
-          "roas": 138.77
+          "cac": 8.97,
+          "roas": 48.55
         },
         {
           "nome": "TVA1199",
@@ -1137,58 +1137,58 @@
         },
         {
           "nome": "TVA0221 | OSA",
-          "gasto": 10.77,
+          "gasto": 11.05,
           "vendas": 1,
-          "cac": 10.77,
-          "roas": 27.39
+          "cac": 11.05,
+          "roas": 26.68
         },
         {
           "nome": "TVA1170 — Cópia",
-          "gasto": 15.99,
+          "gasto": 18.1,
           "vendas": 1,
-          "cac": 15.99,
-          "roas": 27.36
+          "cac": 18.1,
+          "roas": 24.18
         },
         {
-          "nome": "TVJ0633 | NewLash",
-          "gasto": 5.37,
+          "nome": "STA0109 | NewLash",
+          "gasto": 21.57,
           "vendas": 1,
-          "cac": 5.37,
-          "roas": 24.51
+          "cac": 21.57,
+          "roas": 21.6
         }
       ],
       "piores_anuncios": [
         {
+          "nome": "TVA0885 | tonico",
+          "gasto": 0.28,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1325 | newLash",
+          "gasto": 0.24,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0140 | New Lash",
+          "gasto": 0.01,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
           "nome": "TVA0974 | tonico",
-          "gasto": 0.06,
+          "gasto": 0.16,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
           "nome": "TVA0991 | tonico",
-          "gasto": 0.48,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1203 | tonico",
-          "gasto": 0.23,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1315 | tonico",
-          "gasto": 1.06,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1206 | tonico",
-          "gasto": 5.31,
+          "gasto": 0.58,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -1801,8 +1801,8 @@
           "roas": 0.0
         },
         {
-          "nome": "TVJ1248 | OSA — Cópia — Cópia",
-          "gasto": 9.01,
+          "nome": "TVA1124 | Ferritin — Cópia — Cópia",
+          "gasto": 8.74,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -1825,71 +1825,71 @@
     },
     "todo": {
       "de": "2026-09-22",
-      "ate": "2026-11-19",
+      "ate": "2026-11-20",
       "total": {
-        "gasto": 318900.31,
-        "impr": 7133154.0,
-        "cliques": 112830.0,
-        "pv": 97424.0,
-        "ck": 13665.0,
-        "vendas": 2525,
-        "fat": 720109.43,
-        "cpm": 44.71,
-        "ctr": 0.0158,
+        "gasto": 338193.96,
+        "impr": 7447677.0,
+        "cliques": 119335.0,
+        "pv": 103415.0,
+        "ck": 14545.0,
+        "vendas": 2680,
+        "fat": 764429.15,
+        "cpm": 45.41,
+        "ctr": 0.016,
         "cpc": 2.83,
         "cpv": 3.27,
-        "cr": 0.8635,
-        "cpic": 23.34,
-        "vischk": 0.1403,
-        "convchk": 0.1848,
+        "cr": 0.8666,
+        "cpic": 23.25,
+        "vischk": 0.1406,
+        "convchk": 0.1843,
         "convlp": 0.0259,
-        "cac": 126.3,
+        "cac": 126.19,
         "roas": 2.26,
-        "ticket": 285.19
+        "ticket": 285.23
       },
       "ads": {
-        "gasto": 318900.31,
-        "impr": 7133154.0,
-        "cliques": 112830.0,
-        "pv": 97424.0,
-        "ck": 13665.0,
-        "vendas": 2525,
-        "fat": 720109.43,
-        "cpm": 44.71,
-        "ctr": 0.0158,
+        "gasto": 338193.96,
+        "impr": 7447677.0,
+        "cliques": 119335.0,
+        "pv": 103415.0,
+        "ck": 14545.0,
+        "vendas": 2680,
+        "fat": 764429.15,
+        "cpm": 45.41,
+        "ctr": 0.016,
         "cpc": 2.83,
         "cpv": 3.27,
-        "cr": 0.8635,
-        "cpic": 23.34,
-        "vischk": 0.1403,
-        "convchk": 0.1848,
+        "cr": 0.8666,
+        "cpic": 23.25,
+        "vischk": 0.1406,
+        "convchk": 0.1843,
         "convlp": 0.0259,
-        "cac": 126.3,
+        "cac": 126.19,
         "roas": 2.26,
-        "ticket": 285.19
+        "ticket": 285.23
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 242103.93,
-          "impr": 5425012.0,
-          "cliques": 81415.0,
-          "pv": 73655.0,
-          "ck": 10710.0,
-          "vendas": 2004,
-          "fat": 557408.94,
-          "cpm": 44.63,
-          "ctr": 0.015,
+          "gasto": 261397.58,
+          "impr": 5739535.0,
+          "cliques": 87920.0,
+          "pv": 79646.0,
+          "ck": 11590.0,
+          "vendas": 2159,
+          "fat": 601728.66,
+          "cpm": 45.54,
+          "ctr": 0.0153,
           "cpc": 2.97,
-          "cpv": 3.29,
-          "cr": 0.9047,
-          "cpic": 22.61,
-          "vischk": 0.1454,
-          "convchk": 0.1871,
-          "convlp": 0.0272,
-          "cac": 120.81,
+          "cpv": 3.28,
+          "cr": 0.9059,
+          "cpic": 22.55,
+          "vischk": 0.1455,
+          "convchk": 0.1863,
+          "convlp": 0.0271,
+          "cac": 121.07,
           "roas": 2.3,
-          "ticket": 278.15
+          "ticket": 278.71
         },
         {
           "nome": "vendas | Maior lance | IG Anagrow",
@@ -2407,11 +2407,11 @@
           "roas": 53689.61
         },
         {
-          "nome": "STA0109 | NewLash",
-          "gasto": 3.36,
+          "nome": "TVA0878 | tonico",
+          "gasto": 8.97,
           "vendas": 1,
-          "cac": 3.36,
-          "roas": 138.77
+          "cac": 8.97,
+          "roas": 48.55
         },
         {
           "nome": "TVA1199",
@@ -2421,52 +2421,52 @@
           "roas": 41.76
         },
         {
-          "nome": "TVA1170 — Cópia",
-          "gasto": 15.99,
+          "nome": "MagTVJ004 — Cópia",
+          "gasto": 9.4,
           "vendas": 1,
-          "cac": 15.99,
-          "roas": 27.36
+          "cac": 9.4,
+          "roas": 24.89
         },
         {
-          "nome": "MagTVJ004 — Cópia",
-          "gasto": 9.25,
+          "nome": "TVA1170 — Cópia",
+          "gasto": 18.1,
           "vendas": 1,
-          "cac": 9.25,
-          "roas": 25.29
+          "cac": 18.1,
+          "roas": 24.18
         }
       ],
       "piores_anuncios": [
         {
+          "nome": "TVA0885 | tonico",
+          "gasto": 0.28,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1325 | newLash",
+          "gasto": 0.24,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0140 | New Lash",
+          "gasto": 0.01,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
           "nome": "TVA0974 | tonico",
-          "gasto": 0.06,
+          "gasto": 0.16,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
           "nome": "TVA0991 | tonico",
-          "gasto": 0.48,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1203 | tonico",
-          "gasto": 0.23,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1315 | tonico",
-          "gasto": 1.06,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1206 | tonico",
-          "gasto": 5.31,
+          "gasto": 0.58,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
