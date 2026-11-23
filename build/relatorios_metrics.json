@@ -1,126 +1,277 @@
 {
-  "gerado_em": "22/11/2026 07:22",
-  "hoje": "2026-11-22",
+  "gerado_em": "23/11/2026 08:19",
+  "hoje": "2026-11-23",
   "periodo_dados": {
     "de": "2026-09-22",
-    "ate": "2026-11-22"
+    "ate": "2026-11-23"
   },
   "metas": {
     "cac": 95.0,
     "roas": 2.5
   },
-  "ticket_medio_geral": 282.11,
+  "ticket_medio_geral": 281.34,
   "periodos": {
     "hoje": {
-      "de": "2026-11-22",
-      "ate": "2026-11-22",
+      "de": "2026-11-23",
+      "ate": "2026-11-23",
       "total": {
-        "gasto": 1195.29,
-        "impr": 18043.0,
-        "cliques": 397.0,
-        "pv": 367.0,
-        "ck": 40.0,
-        "vendas": 6,
-        "fat": 1863.19,
-        "cpm": 66.25,
-        "ctr": 0.022,
-        "cpc": 3.01,
-        "cpv": 3.26,
-        "cr": 0.9244,
-        "cpic": 29.88,
-        "vischk": 0.109,
-        "convchk": 0.15,
-        "convlp": 0.0163,
-        "cac": 199.22,
-        "roas": 1.56,
-        "ticket": 310.53
+        "gasto": 2756.44,
+        "impr": 43023.0,
+        "cliques": 1107.0,
+        "pv": 896.0,
+        "ck": 94.0,
+        "vendas": 11,
+        "fat": 3203.26,
+        "cpm": 64.07,
+        "ctr": 0.0257,
+        "cpc": 2.49,
+        "cpv": 3.08,
+        "cr": 0.8094,
+        "cpic": 29.32,
+        "vischk": 0.1049,
+        "convchk": 0.117,
+        "convlp": 0.0123,
+        "cac": 250.59,
+        "roas": 1.16,
+        "ticket": 291.21
       },
       "ads": {
-        "gasto": 1195.29,
-        "impr": 18043.0,
-        "cliques": 397.0,
-        "pv": 367.0,
-        "ck": 40.0,
-        "vendas": 6,
-        "fat": 1863.19,
-        "cpm": 66.25,
-        "ctr": 0.022,
-        "cpc": 3.01,
-        "cpv": 3.26,
-        "cr": 0.9244,
-        "cpic": 29.88,
-        "vischk": 0.109,
-        "convchk": 0.15,
-        "convlp": 0.0163,
-        "cac": 199.22,
-        "roas": 1.56,
-        "ticket": 310.53
+        "gasto": 2756.44,
+        "impr": 43023.0,
+        "cliques": 1107.0,
+        "pv": 896.0,
+        "ck": 94.0,
+        "vendas": 11,
+        "fat": 3203.26,
+        "cpm": 64.07,
+        "ctr": 0.0257,
+        "cpc": 2.49,
+        "cpv": 3.08,
+        "cr": 0.8094,
+        "cpic": 29.32,
+        "vischk": 0.1049,
+        "convchk": 0.117,
+        "convlp": 0.0123,
+        "cac": 250.59,
+        "roas": 1.16,
+        "ticket": 291.21
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 1195.29,
-          "impr": 18043.0,
-          "cliques": 397.0,
-          "pv": 367.0,
-          "ck": 40.0,
-          "vendas": 6,
-          "fat": 1863.19,
-          "cpm": 66.25,
-          "ctr": 0.022,
-          "cpc": 3.01,
-          "cpv": 3.26,
-          "cr": 0.9244,
-          "cpic": 29.88,
-          "vischk": 0.109,
-          "convchk": 0.15,
-          "convlp": 0.0163,
-          "cac": 199.22,
-          "roas": 1.56,
-          "ticket": 310.53
+          "gasto": 2756.44,
+          "impr": 43023.0,
+          "cliques": 1107.0,
+          "pv": 896.0,
+          "ck": 94.0,
+          "vendas": 11,
+          "fat": 3203.26,
+          "cpm": 64.07,
+          "ctr": 0.0257,
+          "cpc": 2.49,
+          "cpv": 3.08,
+          "cr": 0.8094,
+          "cpic": 29.32,
+          "vischk": 0.1049,
+          "convchk": 0.117,
+          "convlp": 0.0123,
+          "cac": 250.59,
+          "roas": 1.16,
+          "ticket": 291.21
         }
       ],
       "top_anuncios": [
         {
-          "nome": "TVA1129 | Mag e B12",
-          "gasto": 6.57,
+          "nome": "TVA1112 | ferritin — Cópia — Cópia",
+          "gasto": 0.58,
           "vendas": 1,
-          "cac": 6.57,
-          "roas": 66.94
+          "cac": 0.58,
+          "roas": 767.66
         },
         {
-          "nome": "TVA0878 | tonico",
-          "gasto": 9.73,
+          "nome": "TVA1192 — Cópia",
+          "gasto": 23.65,
           "vendas": 1,
-          "cac": 9.73,
-          "roas": 52.06
+          "cac": 23.65,
+          "roas": 18.54
         },
         {
-          "nome": "TVA1181 — Cópia",
-          "gasto": 4.68,
-          "vendas": 1,
-          "cac": 4.68,
-          "roas": 34.94
+          "nome": "TVJ1180 | ferritin",
+          "gasto": 166.96,
+          "vendas": 2,
+          "cac": 83.48,
+          "roas": 6.01
         },
         {
-          "nome": "TVJ1250 | tonico — Cópia — Cópia",
-          "gasto": 15.27,
+          "nome": "TVA1202 — Cópia",
+          "gasto": 70.14,
           "vendas": 1,
-          "cac": 15.27,
-          "roas": 31.02
+          "cac": 70.14,
+          "roas": 3.2
         },
         {
           "nome": "TVJ1295 | tonico",
-          "gasto": 138.05,
-          "vendas": 2,
-          "cac": 69.02,
-          "roas": 2.03
+          "gasto": 514.2,
+          "vendas": 3,
+          "cac": 171.4,
+          "roas": 1.27
         }
       ],
       "piores_anuncios": [
         {
-          "nome": "STA0085_Prancheta 8",
-          "gasto": 1.33,
+          "nome": "STA0046 | ferritin",
+          "gasto": 70.73,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1246 | OSA — Cópia — Cópia — Cópia",
+          "gasto": 12.77,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1246 | OSA — Cópia — Cópia",
+          "gasto": 0.28,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1248 | OSA — Cópia — Cópia",
+          "gasto": 6.04,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1124 | Ferritin — Cópia — Cópia",
+          "gasto": 0.09,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
+    },
+    "ontem": {
+      "de": "2026-11-22",
+      "ate": "2026-11-22",
+      "total": {
+        "gasto": 13369.02,
+        "impr": 231768.0,
+        "cliques": 5245.0,
+        "pv": 4875.0,
+        "ck": 622.0,
+        "vendas": 112,
+        "fat": 29279.85,
+        "cpm": 57.68,
+        "ctr": 0.0226,
+        "cpc": 2.55,
+        "cpv": 2.74,
+        "cr": 0.9295,
+        "cpic": 21.49,
+        "vischk": 0.1276,
+        "convchk": 0.1801,
+        "convlp": 0.023,
+        "cac": 119.37,
+        "roas": 2.19,
+        "ticket": 261.43
+      },
+      "ads": {
+        "gasto": 13369.02,
+        "impr": 231768.0,
+        "cliques": 5245.0,
+        "pv": 4875.0,
+        "ck": 622.0,
+        "vendas": 112,
+        "fat": 29279.85,
+        "cpm": 57.68,
+        "ctr": 0.0226,
+        "cpc": 2.55,
+        "cpv": 2.74,
+        "cr": 0.9295,
+        "cpic": 21.49,
+        "vischk": 0.1276,
+        "convchk": 0.1801,
+        "convlp": 0.023,
+        "cac": 119.37,
+        "roas": 2.19,
+        "ticket": 261.43
+      },
+      "campanhas": [
+        {
+          "nome": "CPA Cap | Scale",
+          "gasto": 13369.02,
+          "impr": 231768.0,
+          "cliques": 5245.0,
+          "pv": 4875.0,
+          "ck": 622.0,
+          "vendas": 112,
+          "fat": 29279.85,
+          "cpm": 57.68,
+          "ctr": 0.0226,
+          "cpc": 2.55,
+          "cpv": 2.74,
+          "cr": 0.9295,
+          "cpic": 21.49,
+          "vischk": 0.1276,
+          "convchk": 0.1801,
+          "convlp": 0.023,
+          "cac": 119.37,
+          "roas": 2.19,
+          "ticket": 261.43
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "TVA1148 | ferrosa",
+          "gasto": 5.77,
+          "vendas": 2,
+          "cac": 2.88,
+          "roas": 99.2
+        },
+        {
+          "nome": "TVA1181 — Cópia",
+          "gasto": 7.5,
+          "vendas": 1,
+          "cac": 7.5,
+          "roas": 21.79
+        },
+        {
+          "nome": "TVA1129 | Mag e B12",
+          "gasto": 89.57,
+          "vendas": 3,
+          "cac": 29.86,
+          "roas": 16.07
+        },
+        {
+          "nome": "TVJ1342 | Ferrosa",
+          "gasto": 22.08,
+          "vendas": 1,
+          "cac": 22.08,
+          "roas": 10.25
+        },
+        {
+          "nome": "TVJ1310 | tonico",
+          "gasto": 65.67,
+          "vendas": 2,
+          "cac": 32.83,
+          "roas": 6.92
+        }
+      ],
+      "piores_anuncios": [
+        {
+          "nome": "TVA1168 — Cópia",
+          "gasto": 6.24,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1180 — Cópia",
+          "gasto": 0.82,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -133,166 +284,15 @@
           "roas": 0.0
         },
         {
-          "nome": "TVA1180 — Cópia",
-          "gasto": 0.32,
+          "nome": "TVA1204 — Cópia",
+          "gasto": 5.72,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "TVA1168 — Cópia",
-          "gasto": 1.98,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1286 — Cópia",
-          "gasto": 91.2,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        }
-      ]
-    },
-    "ontem": {
-      "de": "2026-11-21",
-      "ate": "2026-11-21",
-      "total": {
-        "gasto": 16687.74,
-        "impr": 303018.0,
-        "cliques": 6358.0,
-        "pv": 5923.0,
-        "ck": 761.0,
-        "vendas": 141,
-        "fat": 32537.51,
-        "cpm": 55.07,
-        "ctr": 0.021,
-        "cpc": 2.62,
-        "cpv": 2.82,
-        "cr": 0.9316,
-        "cpic": 21.93,
-        "vischk": 0.1285,
-        "convchk": 0.1853,
-        "convlp": 0.0238,
-        "cac": 118.35,
-        "roas": 1.95,
-        "ticket": 230.76
-      },
-      "ads": {
-        "gasto": 16687.74,
-        "impr": 303018.0,
-        "cliques": 6358.0,
-        "pv": 5923.0,
-        "ck": 761.0,
-        "vendas": 141,
-        "fat": 32537.51,
-        "cpm": 55.07,
-        "ctr": 0.021,
-        "cpc": 2.62,
-        "cpv": 2.82,
-        "cr": 0.9316,
-        "cpic": 21.93,
-        "vischk": 0.1285,
-        "convchk": 0.1853,
-        "convlp": 0.0238,
-        "cac": 118.35,
-        "roas": 1.95,
-        "ticket": 230.76
-      },
-      "campanhas": [
-        {
-          "nome": "CPA Cap | Scale",
-          "gasto": 16687.74,
-          "impr": 303018.0,
-          "cliques": 6358.0,
-          "pv": 5923.0,
-          "ck": 761.0,
-          "vendas": 141,
-          "fat": 32537.51,
-          "cpm": 55.07,
-          "ctr": 0.021,
-          "cpc": 2.62,
-          "cpv": 2.82,
-          "cr": 0.9316,
-          "cpic": 21.93,
-          "vischk": 0.1285,
-          "convchk": 0.1853,
-          "convlp": 0.0238,
-          "cac": 118.35,
-          "roas": 1.95,
-          "ticket": 230.76
-        }
-      ],
-      "top_anuncios": [
-        {
-          "nome": "STA0046 | ferritin",
-          "gasto": 3.98,
-          "vendas": 1,
-          "cac": 3.98,
-          "roas": 135.11
-        },
-        {
-          "nome": "TVA1223",
-          "gasto": 7.31,
-          "vendas": 1,
-          "cac": 7.31,
-          "roas": 96.46
-        },
-        {
-          "nome": "TVA1151 | B12 — Cópia",
-          "gasto": 3.64,
-          "vendas": 1,
-          "cac": 3.64,
-          "roas": 30.5
-        },
-        {
-          "nome": "TVJ1276 — Cópia",
-          "gasto": 33.9,
-          "vendas": 1,
-          "cac": 33.9,
-          "roas": 15.21
-        },
-        {
-          "nome": "TVA1171 — Cópia",
-          "gasto": 26.23,
-          "vendas": 1,
-          "cac": 26.23,
-          "roas": 12.19
-        }
-      ],
-      "piores_anuncios": [
-        {
-          "nome": "TVJ1316",
-          "gasto": 0.92,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1234",
-          "gasto": 3.2,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1235",
-          "gasto": 4.52,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1236",
-          "gasto": 0.85,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1305",
-          "gasto": 11.82,
+          "nome": "TVA1169 — Cópia",
+          "gasto": 0.33,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -300,143 +300,143 @@
       ]
     },
     "3d": {
-      "de": "2026-11-20",
-      "ate": "2026-11-22",
+      "de": "2026-11-21",
+      "ate": "2026-11-23",
       "total": {
-        "gasto": 37157.69,
-        "impr": 638752.0,
-        "cliques": 13706.0,
-        "pv": 12721.0,
-        "ck": 1569.0,
-        "vendas": 280,
-        "fat": 70613.59,
-        "cpm": 58.17,
-        "ctr": 0.0215,
-        "cpc": 2.71,
-        "cpv": 2.92,
-        "cr": 0.9281,
-        "cpic": 23.68,
-        "vischk": 0.1233,
-        "convchk": 0.1785,
-        "convlp": 0.022,
-        "cac": 132.71,
-        "roas": 1.9,
-        "ticket": 252.19
+        "gasto": 32828.43,
+        "impr": 578113.0,
+        "cliques": 12714.0,
+        "pv": 11694.0,
+        "ck": 1477.0,
+        "vendas": 264,
+        "fat": 65020.62,
+        "cpm": 56.79,
+        "ctr": 0.022,
+        "cpc": 2.58,
+        "cpv": 2.81,
+        "cr": 0.9198,
+        "cpic": 22.23,
+        "vischk": 0.1263,
+        "convchk": 0.1787,
+        "convlp": 0.0226,
+        "cac": 124.35,
+        "roas": 1.98,
+        "ticket": 246.29
       },
       "ads": {
-        "gasto": 37157.69,
-        "impr": 638752.0,
-        "cliques": 13706.0,
-        "pv": 12721.0,
-        "ck": 1569.0,
-        "vendas": 280,
-        "fat": 70613.59,
-        "cpm": 58.17,
-        "ctr": 0.0215,
-        "cpc": 2.71,
-        "cpv": 2.92,
-        "cr": 0.9281,
-        "cpic": 23.68,
-        "vischk": 0.1233,
-        "convchk": 0.1785,
-        "convlp": 0.022,
-        "cac": 132.71,
-        "roas": 1.9,
-        "ticket": 252.19
+        "gasto": 32828.43,
+        "impr": 578113.0,
+        "cliques": 12714.0,
+        "pv": 11694.0,
+        "ck": 1477.0,
+        "vendas": 264,
+        "fat": 65020.62,
+        "cpm": 56.79,
+        "ctr": 0.022,
+        "cpc": 2.58,
+        "cpv": 2.81,
+        "cr": 0.9198,
+        "cpic": 22.23,
+        "vischk": 0.1263,
+        "convchk": 0.1787,
+        "convlp": 0.0226,
+        "cac": 124.35,
+        "roas": 1.98,
+        "ticket": 246.29
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 37157.69,
-          "impr": 638752.0,
-          "cliques": 13706.0,
-          "pv": 12721.0,
-          "ck": 1569.0,
-          "vendas": 280,
-          "fat": 70613.59,
-          "cpm": 58.17,
-          "ctr": 0.0215,
-          "cpc": 2.71,
-          "cpv": 2.92,
-          "cr": 0.9281,
-          "cpic": 23.68,
-          "vischk": 0.1233,
-          "convchk": 0.1785,
-          "convlp": 0.022,
-          "cac": 132.71,
-          "roas": 1.9,
-          "ticket": 252.19
+          "gasto": 32828.43,
+          "impr": 578113.0,
+          "cliques": 12714.0,
+          "pv": 11694.0,
+          "ck": 1477.0,
+          "vendas": 264,
+          "fat": 65020.62,
+          "cpm": 56.79,
+          "ctr": 0.022,
+          "cpc": 2.58,
+          "cpv": 2.81,
+          "cr": 0.9198,
+          "cpic": 22.23,
+          "vischk": 0.1263,
+          "convchk": 0.1787,
+          "convlp": 0.0226,
+          "cac": 124.35,
+          "roas": 1.98,
+          "ticket": 246.29
         }
       ],
       "top_anuncios": [
         {
           "nome": "TVA1223",
-          "gasto": 8.58,
+          "gasto": 9.57,
           "vendas": 1,
-          "cac": 8.58,
-          "roas": 82.13
+          "cac": 9.57,
+          "roas": 73.63
+        },
+        {
+          "nome": "TVA1148 | ferrosa",
+          "gasto": 9.9,
+          "vendas": 2,
+          "cac": 4.95,
+          "roas": 57.81
+        },
+        {
+          "nome": "TVA1151 | B12 — Cópia",
+          "gasto": 5.58,
+          "vendas": 1,
+          "cac": 5.58,
+          "roas": 19.92
         },
         {
           "nome": "TVA1112 | ferritin — Cópia — Cópia",
-          "gasto": 17.26,
+          "gasto": 25.61,
           "vendas": 1,
-          "cac": 17.26,
-          "roas": 18.19
+          "cac": 25.61,
+          "roas": 17.4
         },
         {
-          "nome": "TVA1172 — Cópia",
-          "gasto": 7.16,
+          "nome": "TVJ1342 | Ferrosa",
+          "gasto": 24.29,
           "vendas": 1,
-          "cac": 7.16,
-          "roas": 15.66
-        },
-        {
-          "nome": "STA0080_Prancheta 2",
-          "gasto": 35.54,
-          "vendas": 2,
-          "cac": 17.77,
-          "roas": 11.52
-        },
-        {
-          "nome": "STA0046 | ferritin",
-          "gasto": 59.05,
-          "vendas": 2,
-          "cac": 29.53,
-          "roas": 11.42
+          "cac": 24.29,
+          "roas": 9.32
         }
       ],
       "piores_anuncios": [
         {
-          "nome": "TVA1244 | Ferritin12",
-          "gasto": 9.02,
+          "nome": "TVJ1224 | Ferritin — Cópia",
+          "gasto": 0.03,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "TVA1230 | B12",
-          "gasto": 1.47,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1225 | Ferrosa",
-          "gasto": 2.64,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1342 | Ferrosa",
-          "gasto": 1.5,
+          "nome": "vitamina b12 3",
+          "gasto": 0.07,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
           "nome": "TVA1236 | Mag",
-          "gasto": 0.09,
+          "gasto": 0.68,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1220 | Ferrosa",
+          "gasto": 7.06,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1340 | Ferrosa",
+          "gasto": 1.43,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -444,143 +444,143 @@
       ]
     },
     "7d": {
-      "de": "2026-11-16",
-      "ate": "2026-11-22",
+      "de": "2026-11-17",
+      "ate": "2026-11-23",
       "total": {
-        "gasto": 102825.01,
-        "impr": 1877307.0,
-        "cliques": 36717.0,
-        "pv": 33803.0,
-        "ck": 4483.0,
+        "gasto": 102908.2,
+        "impr": 1815655.0,
+        "cliques": 36970.0,
+        "pv": 33975.0,
+        "ck": 4539.0,
         "vendas": 824,
-        "fat": 218269.52,
-        "cpm": 54.77,
-        "ctr": 0.0196,
-        "cpc": 2.8,
-        "cpv": 3.04,
-        "cr": 0.9206,
-        "cpic": 22.94,
-        "vischk": 0.1326,
-        "convchk": 0.1838,
-        "convlp": 0.0244,
-        "cac": 124.79,
-        "roas": 2.12,
-        "ticket": 264.89
+        "fat": 219992.52,
+        "cpm": 56.68,
+        "ctr": 0.0204,
+        "cpc": 2.78,
+        "cpv": 3.03,
+        "cr": 0.919,
+        "cpic": 22.67,
+        "vischk": 0.1336,
+        "convchk": 0.1815,
+        "convlp": 0.0243,
+        "cac": 124.89,
+        "roas": 2.14,
+        "ticket": 266.98
       },
       "ads": {
-        "gasto": 102825.01,
-        "impr": 1877307.0,
-        "cliques": 36717.0,
-        "pv": 33803.0,
-        "ck": 4483.0,
+        "gasto": 102908.2,
+        "impr": 1815655.0,
+        "cliques": 36970.0,
+        "pv": 33975.0,
+        "ck": 4539.0,
         "vendas": 824,
-        "fat": 218269.52,
-        "cpm": 54.77,
-        "ctr": 0.0196,
-        "cpc": 2.8,
-        "cpv": 3.04,
-        "cr": 0.9206,
-        "cpic": 22.94,
-        "vischk": 0.1326,
-        "convchk": 0.1838,
-        "convlp": 0.0244,
-        "cac": 124.79,
-        "roas": 2.12,
-        "ticket": 264.89
+        "fat": 219992.52,
+        "cpm": 56.68,
+        "ctr": 0.0204,
+        "cpc": 2.78,
+        "cpv": 3.03,
+        "cr": 0.919,
+        "cpic": 22.67,
+        "vischk": 0.1336,
+        "convchk": 0.1815,
+        "convlp": 0.0243,
+        "cac": 124.89,
+        "roas": 2.14,
+        "ticket": 266.98
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 102825.01,
-          "impr": 1877307.0,
-          "cliques": 36717.0,
-          "pv": 33803.0,
-          "ck": 4483.0,
+          "gasto": 102908.2,
+          "impr": 1815655.0,
+          "cliques": 36970.0,
+          "pv": 33975.0,
+          "ck": 4539.0,
           "vendas": 824,
-          "fat": 218269.52,
-          "cpm": 54.77,
-          "ctr": 0.0196,
-          "cpc": 2.8,
-          "cpv": 3.04,
-          "cr": 0.9206,
-          "cpic": 22.94,
-          "vischk": 0.1326,
-          "convchk": 0.1838,
-          "convlp": 0.0244,
-          "cac": 124.79,
-          "roas": 2.12,
-          "ticket": 264.89
+          "fat": 219992.52,
+          "cpm": 56.68,
+          "ctr": 0.0204,
+          "cpc": 2.78,
+          "cpv": 3.03,
+          "cr": 0.919,
+          "cpic": 22.67,
+          "vischk": 0.1336,
+          "convchk": 0.1815,
+          "convlp": 0.0243,
+          "cac": 124.89,
+          "roas": 2.14,
+          "ticket": 266.98
         }
       ],
       "top_anuncios": [
         {
-          "nome": "TVA0782 | Anaplus",
-          "gasto": 7.07,
+          "nome": "TVA1094 | ferritin — Cópia — Cópia",
+          "gasto": 3.53,
           "vendas": 1,
-          "cac": 7.07,
-          "roas": 58.8
+          "cac": 3.53,
+          "roas": 47.02
+        },
+        {
+          "nome": "TVA1148 | ferrosa",
+          "gasto": 13.34,
+          "vendas": 2,
+          "cac": 6.67,
+          "roas": 42.91
         },
         {
           "nome": "TVA1223",
-          "gasto": 19.84,
+          "gasto": 17.66,
           "vendas": 1,
-          "cac": 19.84,
-          "roas": 35.53
+          "cac": 17.66,
+          "roas": 39.9
         },
         {
-          "nome": "TVJ1231 | Mag — Cópia",
-          "gasto": 34.24,
+          "nome": "TVA1112 | ferritin — Cópia — Cópia",
+          "gasto": 27.8,
           "vendas": 2,
-          "cac": 17.12,
-          "roas": 20.82
+          "cac": 13.9,
+          "roas": 27.32
         },
         {
           "nome": "TVA1177 — Cópia",
-          "gasto": 25.26,
+          "gasto": 22.81,
           "vendas": 1,
-          "cac": 25.26,
-          "roas": 20.69
-        },
-        {
-          "nome": "TVA1094 | ferritin — Cópia — Cópia",
-          "gasto": 8.19,
-          "vendas": 1,
-          "cac": 8.19,
-          "roas": 20.24
+          "cac": 22.81,
+          "roas": 22.92
         }
       ],
       "piores_anuncios": [
         {
-          "nome": "TVA1244 | Ferritin12",
-          "gasto": 9.02,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1230 | B12",
-          "gasto": 1.47,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1225 | Ferrosa",
-          "gasto": 2.64,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1342 | Ferrosa",
-          "gasto": 1.5,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
           "nome": "TVA1236 | Mag",
-          "gasto": 0.09,
+          "gasto": 0.68,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1220 | Ferrosa",
+          "gasto": 7.06,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1340 | Ferrosa",
+          "gasto": 1.43,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0957 | tonico",
+          "gasto": 0.65,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0212 | New Lash",
+          "gasto": 0.02,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -588,143 +588,143 @@
       ]
     },
     "14d": {
-      "de": "2026-11-09",
-      "ate": "2026-11-22",
+      "de": "2026-11-10",
+      "ate": "2026-11-23",
       "total": {
-        "gasto": 178527.3,
-        "impr": 3448274.0,
-        "cliques": 61804.0,
-        "pv": 56515.0,
-        "ck": 7873.0,
-        "vendas": 1451,
-        "fat": 387077.73,
-        "cpm": 51.77,
-        "ctr": 0.0179,
-        "cpc": 2.89,
-        "cpv": 3.16,
-        "cr": 0.9144,
-        "cpic": 22.68,
-        "vischk": 0.1393,
-        "convchk": 0.1843,
-        "convlp": 0.0257,
-        "cac": 123.04,
-        "roas": 2.17,
-        "ticket": 266.77
+        "gasto": 183073.99,
+        "impr": 3488879.0,
+        "cliques": 64263.0,
+        "pv": 58746.0,
+        "ck": 8131.0,
+        "vendas": 1478,
+        "fat": 396052.99,
+        "cpm": 52.47,
+        "ctr": 0.0184,
+        "cpc": 2.85,
+        "cpv": 3.12,
+        "cr": 0.9141,
+        "cpic": 22.52,
+        "vischk": 0.1384,
+        "convchk": 0.1818,
+        "convlp": 0.0252,
+        "cac": 123.87,
+        "roas": 2.16,
+        "ticket": 267.97
       },
       "ads": {
-        "gasto": 178527.3,
-        "impr": 3448274.0,
-        "cliques": 61804.0,
-        "pv": 56515.0,
-        "ck": 7873.0,
-        "vendas": 1451,
-        "fat": 387077.73,
-        "cpm": 51.77,
-        "ctr": 0.0179,
-        "cpc": 2.89,
-        "cpv": 3.16,
-        "cr": 0.9144,
-        "cpic": 22.68,
-        "vischk": 0.1393,
-        "convchk": 0.1843,
-        "convlp": 0.0257,
-        "cac": 123.04,
-        "roas": 2.17,
-        "ticket": 266.77
+        "gasto": 183073.99,
+        "impr": 3488879.0,
+        "cliques": 64263.0,
+        "pv": 58746.0,
+        "ck": 8131.0,
+        "vendas": 1478,
+        "fat": 396052.99,
+        "cpm": 52.47,
+        "ctr": 0.0184,
+        "cpc": 2.85,
+        "cpv": 3.12,
+        "cr": 0.9141,
+        "cpic": 22.52,
+        "vischk": 0.1384,
+        "convchk": 0.1818,
+        "convlp": 0.0252,
+        "cac": 123.87,
+        "roas": 2.16,
+        "ticket": 267.97
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 178527.3,
-          "impr": 3448274.0,
-          "cliques": 61804.0,
-          "pv": 56515.0,
-          "ck": 7873.0,
-          "vendas": 1451,
-          "fat": 387077.73,
-          "cpm": 51.77,
-          "ctr": 0.0179,
-          "cpc": 2.89,
-          "cpv": 3.16,
-          "cr": 0.9144,
-          "cpic": 22.68,
-          "vischk": 0.1393,
-          "convchk": 0.1843,
-          "convlp": 0.0257,
-          "cac": 123.04,
-          "roas": 2.17,
-          "ticket": 266.77
+          "gasto": 183073.99,
+          "impr": 3488879.0,
+          "cliques": 64263.0,
+          "pv": 58746.0,
+          "ck": 8131.0,
+          "vendas": 1478,
+          "fat": 396052.99,
+          "cpm": 52.47,
+          "ctr": 0.0184,
+          "cpc": 2.85,
+          "cpv": 3.12,
+          "cr": 0.9141,
+          "cpic": 22.52,
+          "vischk": 0.1384,
+          "convchk": 0.1818,
+          "convlp": 0.0252,
+          "cac": 123.87,
+          "roas": 2.16,
+          "ticket": 267.97
         }
       ],
       "top_anuncios": [
         {
           "nome": "TVA1199",
-          "gasto": 26.33,
-          "vendas": 2,
-          "cac": 13.17,
-          "roas": 41.76
+          "gasto": 6.18,
+          "vendas": 1,
+          "cac": 6.18,
+          "roas": 102.64
         },
         {
-          "nome": "TVA1223",
-          "gasto": 19.84,
-          "vendas": 1,
-          "cac": 19.84,
-          "roas": 35.53
+          "nome": "TVA1148 | ferrosa",
+          "gasto": 13.34,
+          "vendas": 2,
+          "cac": 6.67,
+          "roas": 42.91
         },
         {
           "nome": "B12 esttaico V2",
-          "gasto": 15.12,
+          "gasto": 13.58,
           "vendas": 1,
-          "cac": 15.12,
-          "roas": 28.97
+          "cac": 13.58,
+          "roas": 32.27
         },
         {
-          "nome": "TVA1170 — Cópia",
-          "gasto": 19.96,
+          "nome": "TVA1223",
+          "gasto": 21.85,
           "vendas": 1,
-          "cac": 19.96,
-          "roas": 21.92
+          "cac": 21.85,
+          "roas": 32.25
         },
         {
           "nome": "TVA0782 | Anaplus",
-          "gasto": 23.75,
+          "gasto": 14.74,
           "vendas": 1,
-          "cac": 23.75,
-          "roas": 17.5
+          "cac": 14.74,
+          "roas": 28.2
         }
       ],
       "piores_anuncios": [
         {
-          "nome": "TVA1244 | Ferritin12",
-          "gasto": 9.02,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1230 | B12",
-          "gasto": 1.47,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1225 | Ferrosa",
-          "gasto": 2.64,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1342 | Ferrosa",
-          "gasto": 1.5,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
           "nome": "TVA1236 | Mag",
-          "gasto": 0.09,
+          "gasto": 0.68,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1220 | Ferrosa",
+          "gasto": 7.06,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1340 | Ferrosa",
+          "gasto": 1.43,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0957 | tonico",
+          "gasto": 0.65,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0212 | New Lash",
+          "gasto": 0.02,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -732,72 +732,72 @@
       ]
     },
     "30d": {
-      "de": "2026-10-24",
-      "ate": "2026-11-22",
+      "de": "2026-10-25",
+      "ate": "2026-11-23",
       "total": {
-        "gasto": 284380.65,
-        "impr": 6016578.0,
-        "cliques": 98018.0,
-        "pv": 89157.0,
-        "ck": 12310.0,
-        "vendas": 2301,
-        "fat": 632477.78,
-        "cpm": 47.27,
-        "ctr": 0.0163,
-        "cpc": 2.9,
-        "cpv": 3.19,
-        "cr": 0.9096,
-        "cpic": 23.1,
-        "vischk": 0.1381,
-        "convchk": 0.1869,
-        "convlp": 0.0258,
-        "cac": 123.59,
-        "roas": 2.22,
-        "ticket": 274.87
+        "gasto": 297675.37,
+        "impr": 6225622.0,
+        "cliques": 103497.0,
+        "pv": 94128.0,
+        "ck": 12906.0,
+        "vendas": 2405,
+        "fat": 658846.9,
+        "cpm": 47.81,
+        "ctr": 0.0166,
+        "cpc": 2.88,
+        "cpv": 3.16,
+        "cr": 0.9095,
+        "cpic": 23.06,
+        "vischk": 0.1371,
+        "convchk": 0.1863,
+        "convlp": 0.0256,
+        "cac": 123.77,
+        "roas": 2.21,
+        "ticket": 273.95
       },
       "ads": {
-        "gasto": 284380.65,
-        "impr": 6016578.0,
-        "cliques": 98018.0,
-        "pv": 89157.0,
-        "ck": 12310.0,
-        "vendas": 2301,
-        "fat": 632477.78,
-        "cpm": 47.27,
-        "ctr": 0.0163,
-        "cpc": 2.9,
-        "cpv": 3.19,
-        "cr": 0.9096,
-        "cpic": 23.1,
-        "vischk": 0.1381,
-        "convchk": 0.1869,
-        "convlp": 0.0258,
-        "cac": 123.59,
-        "roas": 2.22,
-        "ticket": 274.87
+        "gasto": 297675.37,
+        "impr": 6225622.0,
+        "cliques": 103497.0,
+        "pv": 94128.0,
+        "ck": 12906.0,
+        "vendas": 2405,
+        "fat": 658846.9,
+        "cpm": 47.81,
+        "ctr": 0.0166,
+        "cpc": 2.88,
+        "cpv": 3.16,
+        "cr": 0.9095,
+        "cpic": 23.06,
+        "vischk": 0.1371,
+        "convchk": 0.1863,
+        "convlp": 0.0256,
+        "cac": 123.77,
+        "roas": 2.21,
+        "ticket": 273.95
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 280326.69,
-          "impr": 5920428.0,
-          "cliques": 96193.0,
-          "pv": 87498.0,
-          "ck": 12124.0,
-          "vendas": 2271,
-          "fat": 624113.89,
-          "cpm": 47.35,
-          "ctr": 0.0162,
-          "cpc": 2.91,
-          "cpv": 3.2,
-          "cr": 0.9096,
-          "cpic": 23.12,
-          "vischk": 0.1386,
-          "convchk": 0.1873,
-          "convlp": 0.026,
-          "cac": 123.44,
-          "roas": 2.23,
-          "ticket": 274.82
+          "gasto": 293621.4,
+          "impr": 6129472.0,
+          "cliques": 101672.0,
+          "pv": 92469.0,
+          "ck": 12720.0,
+          "vendas": 2375,
+          "fat": 650483.01,
+          "cpm": 47.9,
+          "ctr": 0.0166,
+          "cpc": 2.89,
+          "cpv": 3.18,
+          "cr": 0.9095,
+          "cpic": 23.08,
+          "vischk": 0.1376,
+          "convchk": 0.1867,
+          "convlp": 0.0257,
+          "cac": 123.63,
+          "roas": 2.22,
+          "ticket": 273.89
         },
         {
           "nome": "CPAcap | Catalogo | Ig drjoaogf",
@@ -890,6 +890,13 @@
       ],
       "top_anuncios": [
         {
+          "nome": "TVA1148 | ferrosa",
+          "gasto": 13.34,
+          "vendas": 2,
+          "cac": 6.67,
+          "roas": 42.91
+        },
+        {
           "nome": "TVA1199",
           "gasto": 26.33,
           "vendas": 2,
@@ -898,10 +905,10 @@
         },
         {
           "nome": "TVA1223",
-          "gasto": 19.84,
+          "gasto": 21.85,
           "vendas": 1,
-          "cac": 19.84,
-          "roas": 35.53
+          "cac": 21.85,
+          "roas": 32.25
         },
         {
           "nome": "TVJ1246 | OSA — Cópia",
@@ -912,51 +919,44 @@
         },
         {
           "nome": "TVA1170 — Cópia",
-          "gasto": 19.96,
+          "gasto": 20.04,
           "vendas": 1,
-          "cac": 19.96,
-          "roas": 21.92
-        },
-        {
-          "nome": "TVA1078 — Cópia",
-          "gasto": 27.48,
-          "vendas": 1,
-          "cac": 27.48,
-          "roas": 17.05
+          "cac": 20.04,
+          "roas": 21.83
         }
       ],
       "piores_anuncios": [
         {
-          "nome": "TVA1244 | Ferritin12",
-          "gasto": 9.02,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1230 | B12",
-          "gasto": 1.47,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1225 | Ferrosa",
-          "gasto": 2.64,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1342 | Ferrosa",
-          "gasto": 1.5,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
           "nome": "TVA1236 | Mag",
-          "gasto": 0.09,
+          "gasto": 0.68,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1220 | Ferrosa",
+          "gasto": 7.06,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1340 | Ferrosa",
+          "gasto": 1.43,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0957 | tonico",
+          "gasto": 0.65,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0212 | New Lash",
+          "gasto": 0.02,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -965,71 +965,71 @@
     },
     "mes": {
       "de": "2026-11-01",
-      "ate": "2026-11-22",
+      "ate": "2026-11-23",
       "total": {
-        "gasto": 264255.03,
-        "impr": 5445886.0,
-        "cliques": 90962.0,
-        "pv": 82718.0,
-        "ck": 11348.0,
-        "vendas": 2113,
-        "fat": 577435.95,
-        "cpm": 48.52,
-        "ctr": 0.0167,
-        "cpc": 2.91,
-        "cpv": 3.19,
-        "cr": 0.9094,
-        "cpic": 23.29,
-        "vischk": 0.1372,
-        "convchk": 0.1862,
-        "convlp": 0.0255,
-        "cac": 125.06,
-        "roas": 2.19,
-        "ticket": 273.28
+        "gasto": 279201.12,
+        "impr": 5702959.0,
+        "cliques": 96921.0,
+        "pv": 88122.0,
+        "ck": 12024.0,
+        "vendas": 2230,
+        "fat": 608055.87,
+        "cpm": 48.96,
+        "ctr": 0.017,
+        "cpc": 2.88,
+        "cpv": 3.17,
+        "cr": 0.9092,
+        "cpic": 23.22,
+        "vischk": 0.1364,
+        "convchk": 0.1855,
+        "convlp": 0.0253,
+        "cac": 125.2,
+        "roas": 2.18,
+        "ticket": 272.67
       },
       "ads": {
-        "gasto": 264255.03,
-        "impr": 5445886.0,
-        "cliques": 90962.0,
-        "pv": 82718.0,
-        "ck": 11348.0,
-        "vendas": 2113,
-        "fat": 577435.95,
-        "cpm": 48.52,
-        "ctr": 0.0167,
-        "cpc": 2.91,
-        "cpv": 3.19,
-        "cr": 0.9094,
-        "cpic": 23.29,
-        "vischk": 0.1372,
-        "convchk": 0.1862,
-        "convlp": 0.0255,
-        "cac": 125.06,
-        "roas": 2.19,
-        "ticket": 273.28
+        "gasto": 279201.12,
+        "impr": 5702959.0,
+        "cliques": 96921.0,
+        "pv": 88122.0,
+        "ck": 12024.0,
+        "vendas": 2230,
+        "fat": 608055.87,
+        "cpm": 48.96,
+        "ctr": 0.017,
+        "cpc": 2.88,
+        "cpv": 3.17,
+        "cr": 0.9092,
+        "cpic": 23.22,
+        "vischk": 0.1364,
+        "convchk": 0.1855,
+        "convlp": 0.0253,
+        "cac": 125.2,
+        "roas": 2.18,
+        "ticket": 272.67
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 263117.76,
-          "impr": 5424203.0,
-          "cliques": 90562.0,
-          "pv": 82349.0,
-          "ck": 11281.0,
-          "vendas": 2101,
-          "fat": 574366.39,
-          "cpm": 48.51,
-          "ctr": 0.0167,
-          "cpc": 2.91,
-          "cpv": 3.2,
-          "cr": 0.9093,
-          "cpic": 23.32,
-          "vischk": 0.137,
-          "convchk": 0.1862,
-          "convlp": 0.0255,
-          "cac": 125.23,
+          "gasto": 278063.86,
+          "impr": 5681276.0,
+          "cliques": 96521.0,
+          "pv": 87753.0,
+          "ck": 11957.0,
+          "vendas": 2218,
+          "fat": 604986.31,
+          "cpm": 48.94,
+          "ctr": 0.017,
+          "cpc": 2.88,
+          "cpv": 3.17,
+          "cr": 0.9092,
+          "cpic": 23.26,
+          "vischk": 0.1363,
+          "convchk": 0.1855,
+          "convlp": 0.0253,
+          "cac": 125.37,
           "roas": 2.18,
-          "ticket": 273.38
+          "ticket": 272.76
         },
         {
           "nome": "Vendas | novembro | Black fiday | CPA cap",
@@ -1078,6 +1078,13 @@
       ],
       "top_anuncios": [
         {
+          "nome": "TVA1148 | ferrosa",
+          "gasto": 13.34,
+          "vendas": 2,
+          "cac": 6.67,
+          "roas": 42.91
+        },
+        {
           "nome": "TVA1199",
           "gasto": 26.33,
           "vendas": 2,
@@ -1086,24 +1093,17 @@
         },
         {
           "nome": "TVA1223",
-          "gasto": 19.84,
+          "gasto": 21.85,
           "vendas": 1,
-          "cac": 19.84,
-          "roas": 35.53
-        },
-        {
-          "nome": "TVA0221 | OSA",
-          "gasto": 11.45,
-          "vendas": 1,
-          "cac": 11.45,
-          "roas": 25.76
+          "cac": 21.85,
+          "roas": 32.25
         },
         {
           "nome": "TVA1170 — Cópia",
-          "gasto": 19.96,
+          "gasto": 20.04,
           "vendas": 1,
-          "cac": 19.96,
-          "roas": 21.92
+          "cac": 20.04,
+          "roas": 21.83
         },
         {
           "nome": "TVA1078 — Cópia",
@@ -1115,36 +1115,36 @@
       ],
       "piores_anuncios": [
         {
-          "nome": "TVA1244 | Ferritin12",
-          "gasto": 9.02,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1230 | B12",
-          "gasto": 1.47,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1225 | Ferrosa",
-          "gasto": 2.64,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1342 | Ferrosa",
-          "gasto": 1.5,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
           "nome": "TVA1236 | Mag",
-          "gasto": 0.09,
+          "gasto": 0.68,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1220 | Ferrosa",
+          "gasto": 7.06,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1340 | Ferrosa",
+          "gasto": 1.43,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0957 | tonico",
+          "gasto": 0.65,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0212 | New Lash",
+          "gasto": 0.02,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -1781,71 +1781,71 @@
     },
     "todo": {
       "de": "2026-09-22",
-      "ate": "2026-11-22",
+      "ate": "2026-11-23",
       "total": {
-        "gasto": 373580.57,
-        "impr": 8062438.0,
-        "cliques": 132509.0,
-        "pv": 115659.0,
-        "ck": 16053.0,
-        "vendas": 2953,
-        "fat": 833084.17,
-        "cpm": 46.34,
-        "ctr": 0.0164,
-        "cpc": 2.82,
-        "cpv": 3.23,
-        "cr": 0.8728,
-        "cpic": 23.27,
-        "vischk": 0.1388,
-        "convchk": 0.184,
-        "convlp": 0.0255,
-        "cac": 126.51,
-        "roas": 2.23,
-        "ticket": 282.11
+        "gasto": 388526.66,
+        "impr": 8319511.0,
+        "cliques": 138468.0,
+        "pv": 121063.0,
+        "ck": 16729.0,
+        "vendas": 3070,
+        "fat": 863704.09,
+        "cpm": 46.7,
+        "ctr": 0.0166,
+        "cpc": 2.81,
+        "cpv": 3.21,
+        "cr": 0.8743,
+        "cpic": 23.22,
+        "vischk": 0.1382,
+        "convchk": 0.1835,
+        "convlp": 0.0254,
+        "cac": 126.56,
+        "roas": 2.22,
+        "ticket": 281.34
       },
       "ads": {
-        "gasto": 373580.57,
-        "impr": 8062438.0,
-        "cliques": 132509.0,
-        "pv": 115659.0,
-        "ck": 16053.0,
-        "vendas": 2953,
-        "fat": 833084.17,
-        "cpm": 46.34,
-        "ctr": 0.0164,
-        "cpc": 2.82,
-        "cpv": 3.23,
-        "cr": 0.8728,
-        "cpic": 23.27,
-        "vischk": 0.1388,
-        "convchk": 0.184,
-        "convlp": 0.0255,
-        "cac": 126.51,
-        "roas": 2.23,
-        "ticket": 282.11
+        "gasto": 388526.66,
+        "impr": 8319511.0,
+        "cliques": 138468.0,
+        "pv": 121063.0,
+        "ck": 16729.0,
+        "vendas": 3070,
+        "fat": 863704.09,
+        "cpm": 46.7,
+        "ctr": 0.0166,
+        "cpc": 2.81,
+        "cpv": 3.21,
+        "cr": 0.8743,
+        "cpic": 23.22,
+        "vischk": 0.1382,
+        "convchk": 0.1835,
+        "convlp": 0.0254,
+        "cac": 126.56,
+        "roas": 2.22,
+        "ticket": 281.34
       },
       "campanhas": [
         {
           "nome": "CPA Cap | Scale",
-          "gasto": 296784.19,
-          "impr": 6354296.0,
-          "cliques": 101094.0,
-          "pv": 91890.0,
-          "ck": 13098.0,
-          "vendas": 2432,
-          "fat": 670383.68,
-          "cpm": 46.71,
-          "ctr": 0.0159,
-          "cpc": 2.94,
-          "cpv": 3.23,
-          "cr": 0.909,
-          "cpic": 22.66,
-          "vischk": 0.1425,
-          "convchk": 0.1857,
-          "convlp": 0.0265,
-          "cac": 122.03,
-          "roas": 2.26,
-          "ticket": 275.65
+          "gasto": 311730.28,
+          "impr": 6611369.0,
+          "cliques": 107053.0,
+          "pv": 97294.0,
+          "ck": 13774.0,
+          "vendas": 2549,
+          "fat": 701003.6,
+          "cpm": 47.15,
+          "ctr": 0.0162,
+          "cpc": 2.91,
+          "cpv": 3.2,
+          "cr": 0.9088,
+          "cpic": 22.63,
+          "vischk": 0.1416,
+          "convchk": 0.1851,
+          "convlp": 0.0262,
+          "cac": 122.3,
+          "roas": 2.25,
+          "ticket": 275.01
         },
         {
           "nome": "vendas | Maior lance | IG Anagrow",
@@ -2363,6 +2363,13 @@
           "roas": 53689.61
         },
         {
+          "nome": "TVA1148 | ferrosa",
+          "gasto": 13.34,
+          "vendas": 2,
+          "cac": 6.67,
+          "roas": 42.91
+        },
+        {
           "nome": "TVA1199",
           "gasto": 26.33,
           "vendas": 2,
@@ -2371,58 +2378,51 @@
         },
         {
           "nome": "TVA1223",
-          "gasto": 19.84,
+          "gasto": 21.85,
           "vendas": 1,
-          "cac": 19.84,
-          "roas": 35.53
+          "cac": 21.85,
+          "roas": 32.25
         },
         {
           "nome": "MagTVJ004 — Cópia",
-          "gasto": 10.12,
+          "gasto": 10.28,
           "vendas": 1,
-          "cac": 10.12,
-          "roas": 23.12
-        },
-        {
-          "nome": "TVJ1246 | OSA — Cópia",
-          "gasto": 48.13,
-          "vendas": 3,
-          "cac": 16.04,
-          "roas": 22.74
+          "cac": 10.28,
+          "roas": 22.77
         }
       ],
       "piores_anuncios": [
         {
-          "nome": "TVA1244 | Ferritin12",
-          "gasto": 9.02,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1230 | B12",
-          "gasto": 1.47,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVA1225 | Ferrosa",
-          "gasto": 2.64,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
-          "nome": "TVJ1342 | Ferrosa",
-          "gasto": 1.5,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        },
-        {
           "nome": "TVA1236 | Mag",
-          "gasto": 0.09,
+          "gasto": 0.68,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA1220 | Ferrosa",
+          "gasto": 7.06,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVJ1340 | Ferrosa",
+          "gasto": 1.43,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0957 | tonico",
+          "gasto": 0.65,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "TVA0212 | New Lash",
+          "gasto": 0.02,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
